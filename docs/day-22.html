@@ -4,14 +4,494 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>[Day 22] 컴포넌트 설계 패턴(합성/역할 분리)</title>
   <meta name="description" content="[Day 22] 컴포넌트 설계 패턴(합성/역할 분리) | React+TypeScript 84일 루틴 | 학습 기간 2025년 11월 5일"/>
+
+  <!-- Marked.js for Markdown rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/marked@11.1.1/marked.min.js"></script>
+
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+      background: #fafafa;
+    }
+
+    .header {
+      background: white;
+      border-bottom: 2px solid #e5e7eb;
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .header-content {
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    .back-button {
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 8px 16px;
+      background: #63B7B7;
+      color: #ffffff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9em;
+      transition: background 0.2s;
+    }
+
+    .back-button:hover {
+      background: #3A7575;
+    }
+
+    .nav-buttons {
+      display: flex;
+      gap: 12px;
+      margin-top: 16px;
+      align-items: center;
+    }
+
+    .nav-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 10px 18px;
+      background: #e0f2f1;
+      color: #367588;
+      border: 2px solid #63B7B7;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9em;
+      transition: all 0.2s;
+    }
+
+    .nav-btn:hover:not(.disabled) {
+      background: #b2dfdb;
+      border-color: #3A7575;
+    }
+
+    .nav-btn.disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
+    .day-selector {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 18px;
+      background: #b2dfdb;
+      border: 2px solid #63B7B7;
+      border-radius: 6px;
+      margin-left: auto;
+    }
+
+    .day-selector label {
+      font-size: 0.9em;
+      font-weight: 600;
+      color: #367588;
+      white-space: nowrap;
+    }
+
+    .day-selector select {
+      padding: 8px 32px 8px 12px;
+      border: 2px solid #63B7B7;
+      border-radius: 4px;
+      background: white;
+      color: #3A7575;
+      font-weight: 600;
+      font-size: 0.9em;
+      cursor: pointer;
+      transition: all 0.2s;
+      outline: none;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath fill='%2363B7B7' d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 8px center;
+      background-size: 16px;
+    }
+
+    .day-selector select:hover {
+      border-color: #3A7575;
+      background-color: #e0f2f1;
+    }
+
+    .day-selector select:focus {
+      border-color: #3A7575;
+      background-color: #e0f2f1;
+      box-shadow: 0 0 0 3px rgba(58, 117, 117, 0.2);
+    }
+
+    h1 {
+      font-size: 1.75em;
+      margin: 0 0 8px 0;
+      color: #1a1a1a;
+    }
+
+    .meta {
+      color: #666;
+      font-size: 0.9em;
+    }
+
+    .split-container {
+      display: flex;
+      max-width: 1600px;
+      margin: 0 auto;
+      height: calc(100vh - 140px);
+    }
+
+    .panel {
+      flex: 1;
+      overflow-y: auto;
+      padding: 30px;
+    }
+
+    .panel-left {
+      background: #f9fafb;
+      border-right: 2px solid #e5e7eb;
+    }
+
+    .panel-right {
+      background: white;
+    }
+
+    .panel-title {
+      font-size: 0.85em;
+      font-weight: 600;
+      color: #6b7280;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #d1d5db;
+    }
+
+    #markdown-editor {
+      width: 100%;
+      min-height: 500px;
+      padding: 16px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+      font-size: 0.9em;
+      line-height: 1.6;
+      background: white;
+      resize: vertical;
+    }
+
+    #markdown-editor:focus {
+      outline: none;
+      border-color: #2563eb;
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    }
+
+    .copy-button {
+      margin-top: 12px;
+      padding: 8px 16px;
+      background: #0EA7A5;
+      color: #ffffff;
+      border: none;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 0.9em;
+      transition: background 0.2s;
+    }
+
+    .copy-button:hover {
+      background: #3A7575;
+    }
+
+    .copy-button:active {
+      background: #367588;
+    }
+
+    .velog-button {
+      margin-top: 12px;
+      margin-left: 12px;
+      padding: 8px 16px;
+      background: #63B7B7;
+      color: #ffffff;
+      border: none;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 0.9em;
+      transition: background 0.2s;
+    }
+
+    .velog-button:hover {
+      background: #367588;
+    }
+
+    .velog-button:active {
+      background: #3A7575;
+    }
+
+    #content h1 {
+      font-size: 1.75em;
+      margin-top: 32px;
+      margin-bottom: 16px;
+      color: #1a1a1a;
+      border-bottom: 3px solid #63B7B7;
+      padding-bottom: 12px;
+    }
+
+    #content h2 {
+      margin-top: 32px;
+      margin-bottom: 16px;
+      color: #367588;
+      font-size: 1.5em;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 8px;
+    }
+
+    #content h3 {
+      margin-top: 24px;
+      margin-bottom: 12px;
+      color: #374151;
+      font-size: 1.25em;
+    }
+
+    #content p {
+      margin-bottom: 16px;
+    }
+
+    #content ul, #content ol {
+      margin-bottom: 16px;
+      padding-left: 28px;
+    }
+
+    #content li {
+      margin-bottom: 8px;
+    }
+
+    #content a {
+      color: #0EA7A5;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    #content a:hover {
+      border-bottom-color: #63B7B7;
+    }
+
+    #content pre {
+      background: #1f2937;
+      color: #f9fafb;
+      padding: 16px;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin-bottom: 16px;
+    }
+
+    #content code {
+      background: #e0f2f1;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+      font-size: 0.9em;
+      color: #367588;
+    }
+
+    #content pre code {
+      background: none;
+      padding: 0;
+      color: #f9fafb;
+    }
+
+    #content blockquote {
+      border-left: 4px solid #63B7B7;
+      padding-left: 16px;
+      margin-left: 0;
+      color: #666;
+      font-style: italic;
+      background: #e0f2f1;
+      padding: 12px 16px;
+      border-radius: 4px;
+    }
+
+    #content hr {
+      border: none;
+      border-top: 2px solid #e5e7eb;
+      margin: 32px 0;
+    }
+
+    #content input[type="checkbox"] {
+      margin-right: 8px;
+    }
+
+    #content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 16px;
+    }
+
+    #content table th,
+    #content table td {
+      border: 1px solid #e5e7eb;
+      padding: 8px 12px;
+      text-align: left;
+    }
+
+    #content table th {
+      background: #f3f4f6;
+      font-weight: 600;
+    }
+
+    @media (max-width: 1024px) {
+      .split-container {
+        flex-direction: column;
+        height: auto;
+      }
+
+      .panel-left {
+        border-right: none;
+        border-bottom: 2px solid #e5e7eb;
+      }
+
+      .panel {
+        padding: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
-<!--__BACK_TO_INDEX_BUTTON__-->
-<a href="index.html" style="display:inline-block;margin:10px 0 18px;padding:8px 14px;background:#2563eb;color:#fff;border-radius:8px;text-decoration:none;font-weight:600;">← 목록으로 돌아가기</a>
+  <div class="header">
+    <div class="header-content">
+      <a href="index.html" class="back-button">← 목록으로 돌아가기</a>
+      <h1>[Day 22] 컴포넌트 설계 패턴(합성/역할 분리)</h1>
+      <div class="meta">📅 학습 기간: <b>2025년 11월 5일</b></div>
 
-  <h1>[Day 22] 컴포넌트 설계 패턴(합성/역할 분리)</h1>
-  <div class="meta">학습 기간: <b>2025년 11월 5일</b></div>
-  <pre># 🧠 Day 22 — 컴포넌트 설계 패턴(합성/역할 분리)
+      <div class="nav-buttons">
+        <a href="day-21.html" class="nav-btn ">
+          <span>←</span>
+          <span>이전 Day</span>
+        </a>
+
+        <a href="day-23.html" class="nav-btn ">
+          <span>다음 Day</span>
+          <span>→</span>
+        </a>
+
+        <div class="day-selector">
+          <label for="day-select">📅 이동:</label>
+          <select id="day-select" onchange="location.href = this.value">
+            <option value="day-01.html" >Day 1</option>
+            <option value="day-02.html" >Day 2</option>
+            <option value="day-03.html" >Day 3</option>
+            <option value="day-04.html" >Day 4</option>
+            <option value="day-05.html" >Day 5</option>
+            <option value="day-06.html" >Day 6</option>
+            <option value="day-07.html" >Day 7</option>
+            <option value="day-08.html" >Day 8</option>
+            <option value="day-09.html" >Day 9</option>
+            <option value="day-10.html" >Day 10</option>
+            <option value="day-11.html" >Day 11</option>
+            <option value="day-12.html" >Day 12</option>
+            <option value="day-13.html" >Day 13</option>
+            <option value="day-14.html" >Day 14</option>
+            <option value="day-15.html" >Day 15</option>
+            <option value="day-16.html" >Day 16</option>
+            <option value="day-17.html" >Day 17</option>
+            <option value="day-18.html" >Day 18</option>
+            <option value="day-19.html" >Day 19</option>
+            <option value="day-20.html" >Day 20</option>
+            <option value="day-21.html" >Day 21</option>
+            <option value="day-22.html" selected>Day 22</option>
+            <option value="day-23.html" >Day 23</option>
+            <option value="day-24.html" >Day 24</option>
+            <option value="day-25.html" >Day 25</option>
+            <option value="day-26.html" >Day 26</option>
+            <option value="day-27.html" >Day 27</option>
+            <option value="day-28.html" >Day 28</option>
+            <option value="day-29.html" >Day 29</option>
+            <option value="day-30.html" >Day 30</option>
+            <option value="day-31.html" >Day 31</option>
+            <option value="day-32.html" >Day 32</option>
+            <option value="day-33.html" >Day 33</option>
+            <option value="day-34.html" >Day 34</option>
+            <option value="day-35.html" >Day 35</option>
+            <option value="day-36.html" >Day 36</option>
+            <option value="day-37.html" >Day 37</option>
+            <option value="day-38.html" >Day 38</option>
+            <option value="day-39.html" >Day 39</option>
+            <option value="day-40.html" >Day 40</option>
+            <option value="day-41.html" >Day 41</option>
+            <option value="day-42.html" >Day 42</option>
+            <option value="day-43.html" >Day 43</option>
+            <option value="day-44.html" >Day 44</option>
+            <option value="day-45.html" >Day 45</option>
+            <option value="day-46.html" >Day 46</option>
+            <option value="day-47.html" >Day 47</option>
+            <option value="day-48.html" >Day 48</option>
+            <option value="day-49.html" >Day 49</option>
+            <option value="day-50.html" >Day 50</option>
+            <option value="day-51.html" >Day 51</option>
+            <option value="day-52.html" >Day 52</option>
+            <option value="day-53.html" >Day 53</option>
+            <option value="day-54.html" >Day 54</option>
+            <option value="day-55.html" >Day 55</option>
+            <option value="day-56.html" >Day 56</option>
+            <option value="day-57.html" >Day 57</option>
+            <option value="day-58.html" >Day 58</option>
+            <option value="day-59.html" >Day 59</option>
+            <option value="day-60.html" >Day 60</option>
+            <option value="day-61.html" >Day 61</option>
+            <option value="day-62.html" >Day 62</option>
+            <option value="day-63.html" >Day 63</option>
+            <option value="day-64.html" >Day 64</option>
+            <option value="day-65.html" >Day 65</option>
+            <option value="day-66.html" >Day 66</option>
+            <option value="day-67.html" >Day 67</option>
+            <option value="day-68.html" >Day 68</option>
+            <option value="day-69.html" >Day 69</option>
+            <option value="day-70.html" >Day 70</option>
+            <option value="day-71.html" >Day 71</option>
+            <option value="day-72.html" >Day 72</option>
+            <option value="day-73.html" >Day 73</option>
+            <option value="day-74.html" >Day 74</option>
+            <option value="day-75.html" >Day 75</option>
+            <option value="day-76.html" >Day 76</option>
+            <option value="day-77.html" >Day 77</option>
+            <option value="day-78.html" >Day 78</option>
+            <option value="day-79.html" >Day 79</option>
+            <option value="day-80.html" >Day 80</option>
+            <option value="day-81.html" >Day 81</option>
+            <option value="day-82.html" >Day 82</option>
+            <option value="day-83.html" >Day 83</option>
+            <option value="day-84.html" >Day 84</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="split-container">
+    <div class="panel panel-left">
+      <div class="panel-title">📝 마크다운 소스</div>
+      <textarea id="markdown-editor" spellcheck="false"></textarea>
+      <button class="copy-button" onclick="copyMarkdown()">📋 소스 복사</button>
+      <button class="velog-button" onclick="openVelog()">✍️ Velog에 작성하기</button>
+    </div>
+
+    <div class="panel panel-right">
+      <div class="panel-title">👀 렌더링 미리보기</div>
+      <div id="content"></div>
+    </div>
+  </div>
+
+  <script id="markdown-source" type="text/plain"># 🧠 Day 22 — 컴포넌트 설계 패턴(합성/역할 분리)
 
 &gt; **학습 기간:** 2025.11.05  
 &gt; **총 루틴:** React + TypeScript 실전 루틴 (Day 22/84)  
@@ -43,8 +523,8 @@
 ---
 
 ## ✅ 체크리스트
-- [ ] children 합성
-- [ ] 표현/컨테이너 분리
+[ ] children 합성
+[ ] 표현/컨테이너 분리
 
 ---
 
@@ -60,5 +540,69 @@
 
 ---
 🔗 [오늘의 노션 페이지](https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2)
-</pre>
+</script>
+  <script>
+    // Marked.js 설정
+    marked.setOptions({
+      breaks: true,
+      gfm: true
+    });
+
+    // 마크다운 소스 로드
+    const markdownSource = document.getElementById('markdown-source').textContent;
+    const editor = document.getElementById('markdown-editor');
+    const content = document.getElementById('content');
+
+    // 에디터에 소스 설정
+    editor.value = markdownSource;
+
+    // 초기 렌더링
+    content.innerHTML = marked.parse(markdownSource);
+
+    // 실시간 렌더링 (편집 시)
+    editor.addEventListener('input', function() {
+      content.innerHTML = marked.parse(editor.value);
+    });
+
+    // 복사 기능
+    function copyMarkdown() {
+      editor.select();
+      document.execCommand('copy');
+
+      const btn = event.target;
+      const originalText = btn.textContent;
+      btn.textContent = '✅ 복사 완료!';
+      btn.style.background = '#63B7B7';
+
+      setTimeout(() => {
+        btn.textContent = originalText;
+        btn.style.background = '#0EA7A5';
+      }, 2000);
+    }
+
+    // Velog 글쓰기 열기
+    function openVelog() {
+      // 마크다운 내용을 클립보드에 복사
+      const markdown = editor.value;
+
+      // 클립보드에 복사
+      navigator.clipboard.writeText(markdown).then(() => {
+        // Velog 글쓰기 페이지 열기
+        window.open('https://velog.io/write', '_blank');
+
+        // 버튼 피드백
+        const btn = event.target;
+        const originalText = btn.textContent;
+        btn.textContent = '✅ 클립보드에 복사됨!';
+        btn.style.background = '#0EA7A5';
+
+        setTimeout(() => {
+          btn.textContent = originalText;
+          btn.style.background = '#63B7B7';
+        }, 2500);
+      }).catch(err => {
+        alert('클립보드 복사에 실패했습니다. 수동으로 복사해주세요.');
+      });
+    }
+  </script>
 </body></html>

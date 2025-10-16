@@ -1,27 +1,1123 @@
 <!doctype html>
-<html lang="ko"><head>
+<html lang="ko">
+<head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>React + TypeScript 84일 루틴 아카이브</title>
-  <meta name="robots" content="noindex, nofollow"/>
+  <title>React + TypeScript 84일 루틴</title>
+  <meta name="description" content="React + TypeScript 84일 학습 루틴 - 기초부터 실전까지"/>
+
   <style>
-    body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans KR',Arial,sans-serif; max-width: 900px; margin: 32px auto; padding: 0 16px; }
-    input { width:100%; padding:10px 12px; border:1px solid #ddd; border-radius:10px; }
-    ul { list-style:none; padding:0; }
-    li { margin:8px 0; }
-    a { color:#2563eb; text-decoration:none; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #e0f2f1 0%, #b2dfdb 50%, #80cbc4 100%);
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .header h1 {
+      font-size: 2.5em;
+      margin: 0 0 16px 0;
+      color: #367588;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .header p {
+      font-size: 1.1em;
+      color: #6b7280;
+      margin: 0;
+    }
+
+    .progress-section {
+      background: white;
+      border-radius: 16px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.07);
+    }
+
+    .progress-title {
+      font-size: 1.2em;
+      font-weight: 600;
+      color: #374151;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .progress-bar-container {
+      background: #f3f4f6;
+      border-radius: 12px;
+      height: 32px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .progress-bar {
+      background: linear-gradient(90deg, #63B7B7 0%, #0EA7A5 100%);
+      height: 100%;
+      transition: width 0.5s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      color: #ffffff;
+      font-size: 0.9em;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .stat-card {
+      background: linear-gradient(135deg, #b2dfdb 0%, #80cbc4 100%);
+      padding: 16px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 2em;
+      font-weight: 700;
+      color: #367588;
+      margin-bottom: 4px;
+    }
+
+    .stat-label {
+      font-size: 0.85em;
+      color: #6b7280;
+      font-weight: 600;
+    }
+
+    .controls {
+      background: white;
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.07);
+    }
+
+    .search-box {
+      width: 100%;
+      padding: 12px 16px;
+      border: 2px solid #63B7B7;
+      border-radius: 8px;
+      font-size: 1em;
+      margin-bottom: 16px;
+      transition: all 0.2s;
+    }
+
+    .search-box:focus {
+      outline: none;
+      border-color: #3A7575;
+      box-shadow: 0 0 0 3px rgba(58, 117, 117, 0.15);
+    }
+
+    .filters {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .filter-group {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      padding: 8px 16px;
+      border: 2px solid #d1d5db;
+      background: white;
+      border-radius: 8px;
+      font-size: 0.9em;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      color: #6b7280;
+    }
+
+    .filter-btn:hover {
+      border-color: #63B7B7;
+      background: #e0f2f1;
+    }
+
+    .filter-btn.active {
+      background: #63B7B7;
+      border-color: #3A7575;
+      color: #ffffff;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .day-card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+      transition: all 0.3s;
+      cursor: pointer;
+      border: 2px solid transparent;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .day-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #63B7B7 0%, #0EA7A5 100%);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .day-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+      border-color: #63B7B7;
+    }
+
+    .day-card:hover::before {
+      opacity: 1;
+    }
+
+    .day-card.completed {
+      border-color: #0EA7A5;
+      background: linear-gradient(135deg, #e0f2f1 0%, #ffffff 100%);
+    }
+
+    .day-card.completed::before {
+      background: #0EA7A5;
+      opacity: 1;
+    }
+
+    .day-number {
+      font-size: 0.85em;
+      font-weight: 700;
+      color: #367588;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .day-title {
+      font-size: 1.05em;
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 12px;
+      line-height: 1.4;
+      min-height: 2.8em;
+    }
+
+    .day-meta {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 12px;
+      font-size: 0.85em;
+      color: #6b7280;
+    }
+
+    .day-meta span {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .week-badge {
+      display: inline-block;
+      padding: 4px 10px;
+      background: #b2dfdb;
+      color: #367588;
+      border-radius: 6px;
+      font-size: 0.75em;
+      font-weight: 600;
+    }
+
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    .checkbox-container input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      accent-color: #0EA7A5;
+    }
+
+    .checkbox-container label {
+      font-size: 0.9em;
+      font-weight: 600;
+      color: #3A7575;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .no-results {
+      text-align: center;
+      padding: 60px 20px;
+      color: #9ca3af;
+      font-size: 1.1em;
+    }
+
+    @media (max-width: 768px) {
+      .header h1 {
+        font-size: 1.8em;
+      }
+
+      .stats {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .filters {
+        flex-direction: column;
+      }
+
+      .cards-grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>React + TypeScript 84일 루틴</h1>
-  <input id="q" type="search" placeholder="제목/파일 검색..." oninput="filter()" />
-  <ul id="list"></ul>
+  <div class="container">
+    <div class="header">
+      <h1>🚀 React + TypeScript 84일 루틴</h1>
+      <p>기초부터 실전까지, 체계적인 학습 여정</p>
+    </div>
+
+    <div class="progress-section">
+      <div class="progress-title">
+        <span>📊 전체 진행률</span>
+      </div>
+      <div class="progress-bar-container">
+        <div class="progress-bar" id="progress-bar">0%</div>
+      </div>
+      <div class="stats">
+        <div class="stat-card">
+          <div class="stat-number" id="stat-completed">0</div>
+          <div class="stat-label">완료한 Day</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" id="stat-remaining">84</div>
+          <div class="stat-label">남은 Day</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" id="stat-percentage">0%</div>
+          <div class="stat-label">진행률</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" id="stat-week">1</div>
+          <div class="stat-label">현재 주차</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <input type="text" id="search-input" class="search-box" placeholder="🔍 제목으로 검색...">
+
+      <div class="filters">
+        <div class="filter-group">
+          <button class="filter-btn active" data-filter="all">전체</button>
+          <button class="filter-btn" data-filter="todo">미완료</button>
+          <button class="filter-btn" data-filter="done">완료</button>
+        </div>
+
+        <div class="filter-group" id="week-filters">
+          <!-- Week filters will be generated by JS -->
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-grid" id="cards-grid">
+      <!-- Cards will be generated by JavaScript -->
+    </div>
+
+    <div class="no-results" id="no-results" style="display: none;">
+      검색 결과가 없습니다 😢
+    </div>
+  </div>
+
   <script>
-    const items = [{"href": "day-01.html", "text": "Day 01 — 🧠 Day 1 — React & TypeScript 실전 루틴", "date": "2025.10.16"}, {"href": "day-02.html", "text": "Day 02 — 🧠 Day 2 — React & TypeScript 실전 루틴", "date": "2025.10.17"}, {"href": "day-03.html", "text": "Day 03 — 🧠 Day 3 — React & TypeScript 실전 루틴", "date": "2025.10.18"}, {"href": "day-04.html", "text": "Day 04 — 🧠 Day 4 — React & TypeScript 실전 루틴", "date": "2025.10.19"}, {"href": "day-05.html", "text": "Day 05 — 🧠 Day 5 — React & TypeScript 실전 루틴", "date": "2025.10.20"}, {"href": "day-06.html", "text": "Day 06 — 🧠 Day 6 — React & TypeScript 실전 루틴", "date": "2025.10.21"}, {"href": "day-07.html", "text": "Day 07 — 🧠 Day 7 — React & TypeScript 실전 루틴", "date": "2025.10.22"}, {"href": "day-08.html", "text": "Day 08 — 🧠 Day 8 — React & TypeScript 실전 루틴", "date": "2025.10.23"}, {"href": "day-09.html", "text": "Day 09 — 🧠 Day 9 — React & TypeScript 실전 루틴", "date": "2025.10.24"}, {"href": "day-10.html", "text": "Day 10 — 🧠 Day 10 — React & TypeScript 실전 루틴", "date": "2025.10.25"}, {"href": "day-11.html", "text": "Day 11 — 🧠 Day 11 — React & TypeScript 실전 루틴", "date": "2025.10.26"}, {"href": "day-12.html", "text": "Day 12 — 🧠 Day 12 — React & TypeScript 실전 루틴", "date": "2025.10.27"}, {"href": "day-13.html", "text": "Day 13 — 🧠 Day 13 — React & TypeScript 실전 루틴", "date": "2025.10.28"}, {"href": "day-14.html", "text": "Day 14 — 🧠 Day 14 — React & TypeScript 실전 루틴", "date": "2025.10.29"}, {"href": "day-15.html", "text": "Day 15 — 🧠 Day 15 — React & TypeScript 실전 루틴", "date": "2025.10.30"}, {"href": "day-16.html", "text": "Day 16 — 🧠 Day 16 — React & TypeScript 실전 루틴", "date": "2025.10.31"}, {"href": "day-17.html", "text": "Day 17 — 🧠 Day 17 — React & TypeScript 실전 루틴", "date": "2025.11.01"}, {"href": "day-18.html", "text": "Day 18 — 🧠 Day 18 — React & TypeScript 실전 루틴", "date": "2025.11.02"}, {"href": "day-19.html", "text": "Day 19 — 🧠 Day 19 — React & TypeScript 실전 루틴", "date": "2025.11.03"}, {"href": "day-20.html", "text": "Day 20 — 🧠 Day 20 — React & TypeScript 실전 루틴", "date": "2025.11.04"}, {"href": "day-21.html", "text": "Day 21 — 🧠 Day 21 — React & TypeScript 실전 루틴", "date": "2025.11.05"}, {"href": "day-22.html", "text": "Day 22 — 🧠 Day 22 — React & TypeScript 실전 루틴", "date": "2025.11.06"}, {"href": "day-23.html", "text": "Day 23 — 🧠 Day 23 — React & TypeScript 실전 루틴", "date": "2025.11.07"}, {"href": "day-24.html", "text": "Day 24 — 🧠 Day 24 — React & TypeScript 실전 루틴", "date": "2025.11.08"}, {"href": "day-25.html", "text": "Day 25 — 🧠 Day 25 — React & TypeScript 실전 루틴", "date": "2025.11.09"}, {"href": "day-26.html", "text": "Day 26 — 🧠 Day 26 — React & TypeScript 실전 루틴", "date": "2025.11.10"}, {"href": "day-27.html", "text": "Day 27 — 🧠 Day 27 — React & TypeScript 실전 루틴", "date": "2025.11.11"}, {"href": "day-28.html", "text": "Day 28 — 🧠 Day 28 — React & TypeScript 실전 루틴", "date": "2025.11.12"}, {"href": "day-29.html", "text": "Day 29 — 🧠 Day 29 — React & TypeScript 실전 루틴", "date": "2025.11.13"}, {"href": "day-30.html", "text": "Day 30 — 🧠 Day 30 — React & TypeScript 실전 루틴", "date": "2025.11.14"}, {"href": "day-31.html", "text": "Day 31 — 🧠 Day 31 — React & TypeScript 실전 루틴", "date": "2025.11.15"}, {"href": "day-32.html", "text": "Day 32 — 🧠 Day 32 — React & TypeScript 실전 루틴", "date": "2025.11.16"}, {"href": "day-33.html", "text": "Day 33 — 🧠 Day 33 — React & TypeScript 실전 루틴", "date": "2025.11.17"}, {"href": "day-34.html", "text": "Day 34 — 🧠 Day 34 — React & TypeScript 실전 루틴", "date": "2025.11.18"}, {"href": "day-35.html", "text": "Day 35 — 🧠 Day 35 — React & TypeScript 실전 루틴", "date": "2025.11.19"}, {"href": "day-36.html", "text": "Day 36 — 🧠 Day 36 — React & TypeScript 실전 루틴", "date": "2025.11.20"}, {"href": "day-37.html", "text": "Day 37 — 🧠 Day 37 — React & TypeScript 실전 루틴", "date": "2025.11.21"}, {"href": "day-38.html", "text": "Day 38 — 🧠 Day 38 — React & TypeScript 실전 루틴", "date": "2025.11.22"}, {"href": "day-39.html", "text": "Day 39 — 🧠 Day 39 — React & TypeScript 실전 루틴", "date": "2025.11.23"}, {"href": "day-40.html", "text": "Day 40 — 🧠 Day 40 — React & TypeScript 실전 루틴", "date": "2025.11.24"}, {"href": "day-41.html", "text": "Day 41 — 🧠 Day 41 — React & TypeScript 실전 루틴", "date": "2025.11.25"}, {"href": "day-42.html", "text": "Day 42 — 🧠 Day 42 — React & TypeScript 실전 루틴", "date": "2025.11.26"}, {"href": "day-43.html", "text": "Day 43 — 🧠 Day 43 — React & TypeScript 실전 루틴", "date": "2025.11.27"}, {"href": "day-44.html", "text": "Day 44 — 🧠 Day 44 — React & TypeScript 실전 루틴", "date": "2025.11.28"}, {"href": "day-45.html", "text": "Day 45 — 🧠 Day 45 — React & TypeScript 실전 루틴", "date": "2025.11.29"}, {"href": "day-46.html", "text": "Day 46 — 🧠 Day 46 — React & TypeScript 실전 루틴", "date": "2025.11.30"}, {"href": "day-47.html", "text": "Day 47 — 🧠 Day 47 — React & TypeScript 실전 루틴", "date": "2025.12.01"}, {"href": "day-48.html", "text": "Day 48 — 🧠 Day 48 — React & TypeScript 실전 루틴", "date": "2025.12.02"}, {"href": "day-49.html", "text": "Day 49 — 🧠 Day 49 — React & TypeScript 실전 루틴", "date": "2025.12.03"}, {"href": "day-50.html", "text": "Day 50 — 🧠 Day 50 — React & TypeScript 실전 루틴", "date": "2025.12.04"}, {"href": "day-51.html", "text": "Day 51 — 🧠 Day 51 — React & TypeScript 실전 루틴", "date": "2025.12.05"}, {"href": "day-52.html", "text": "Day 52 — 🧠 Day 52 — React & TypeScript 실전 루틴", "date": "2025.12.06"}, {"href": "day-53.html", "text": "Day 53 — 🧠 Day 53 — React & TypeScript 실전 루틴", "date": "2025.12.07"}, {"href": "day-54.html", "text": "Day 54 — 🧠 Day 54 — React & TypeScript 실전 루틴", "date": "2025.12.08"}, {"href": "day-55.html", "text": "Day 55 — 🧠 Day 55 — React & TypeScript 실전 루틴", "date": "2025.12.09"}, {"href": "day-56.html", "text": "Day 56 — 🧠 Day 56 — React & TypeScript 실전 루틴", "date": "2025.12.10"}, {"href": "day-57.html", "text": "Day 57 — 🧠 Day 57 — React & TypeScript 실전 루틴", "date": "2025.12.11"}, {"href": "day-58.html", "text": "Day 58 — 🧠 Day 58 — React & TypeScript 실전 루틴", "date": "2025.12.12"}, {"href": "day-59.html", "text": "Day 59 — 🧠 Day 59 — React & TypeScript 실전 루틴", "date": "2025.12.13"}, {"href": "day-60.html", "text": "Day 60 — 🧠 Day 60 — React & TypeScript 실전 루틴", "date": "2025.12.14"}, {"href": "day-61.html", "text": "Day 61 — 🧠 Day 61 — React & TypeScript 실전 루틴", "date": "2025.12.15"}, {"href": "day-62.html", "text": "Day 62 — 🧠 Day 62 — React & TypeScript 실전 루틴", "date": "2025.12.16"}, {"href": "day-63.html", "text": "Day 63 — 🧠 Day 63 — React & TypeScript 실전 루틴", "date": "2025.12.17"}, {"href": "day-64.html", "text": "Day 64 — 🧠 Day 64 — React & TypeScript 실전 루틴", "date": "2025.12.18"}, {"href": "day-65.html", "text": "Day 65 — 🧠 Day 65 — React & TypeScript 실전 루틴", "date": "2025.12.19"}, {"href": "day-66.html", "text": "Day 66 — 🧠 Day 66 — React & TypeScript 실전 루틴", "date": "2025.12.20"}, {"href": "day-67.html", "text": "Day 67 — 🧠 Day 67 — React & TypeScript 실전 루틴", "date": "2025.12.21"}, {"href": "day-68.html", "text": "Day 68 — 🧠 Day 68 — React & TypeScript 실전 루틴", "date": "2025.12.22"}, {"href": "day-69.html", "text": "Day 69 — 🧠 Day 69 — React & TypeScript 실전 루틴", "date": "2025.12.23"}, {"href": "day-70.html", "text": "Day 70 — 🧠 Day 70 — React & TypeScript 실전 루틴", "date": "2025.12.24"}, {"href": "day-71.html", "text": "Day 71 — 🧠 Day 71 — React & TypeScript 실전 루틴", "date": "2025.12.25"}, {"href": "day-72.html", "text": "Day 72 — 🧠 Day 72 — React & TypeScript 실전 루틴", "date": "2025.12.26"}, {"href": "day-73.html", "text": "Day 73 — 🧠 Day 73 — React & TypeScript 실전 루틴", "date": "2025.12.27"}, {"href": "day-74.html", "text": "Day 74 — 🧠 Day 74 — React & TypeScript 실전 루틴", "date": "2025.12.28"}, {"href": "day-75.html", "text": "Day 75 — 🧠 Day 75 — React & TypeScript 실전 루틴", "date": "2025.12.29"}, {"href": "day-76.html", "text": "Day 76 — 🧠 Day 76 — React & TypeScript 실전 루틴", "date": "2025.12.30"}, {"href": "day-77.html", "text": "Day 77 — 🧠 Day 77 — React & TypeScript 실전 루틴", "date": "2025.12.31"}, {"href": "day-78.html", "text": "Day 78 — 🧠 Day 78 — React & TypeScript 실전 루틴", "date": "2026.01.01"}, {"href": "day-79.html", "text": "Day 79 — 🧠 Day 79 — React & TypeScript 실전 루틴", "date": "2026.01.02"}, {"href": "day-80.html", "text": "Day 80 — 🧠 Day 80 — React & TypeScript 실전 루틴", "date": "2026.01.03"}, {"href": "day-81.html", "text": "Day 81 — 🧠 Day 81 — React & TypeScript 실전 루틴", "date": "2026.01.04"}, {"href": "day-82.html", "text": "Day 82 — 🧠 Day 82 — React & TypeScript 실전 루틴", "date": "2026.01.05"}, {"href": "day-83.html", "text": "Day 83 — 🧠 Day 83 — React & TypeScript 실전 루틴", "date": "2026.01.06"}, {"href": "day-84.html", "text": "Day 84 — 🧠 Day 84 — React & TypeScript 실전 루틴", "date": "2026.01.07"}];
-    const list = document.getElementById('list');
-    const q = document.getElementById('q');
-    function render(arr){ list.innerHTML = arr.map(it => `<li><a href="${it.href}">${it.text}</a> <small>${it.date}</small></li>`).join(''); }
-    function filter(){ const t=q.value.toLowerCase().trim(); if(!t) return render(items); render(items.filter(it=>it.text.toLowerCase().includes(t)||it.href.toLowerCase().includes(t))); }
-    render(items);
+    const daysData = [
+  {
+    "day": 1,
+    "title": "[Day 1] 자바스크립트 시작 (let / const · 템플릿 리터럴)",
+    "date": "2025년 10월 15일",
+    "checklistCount": 3,
+    "status": "Not Started"
+  },
+  {
+    "day": 2,
+    "title": "[Day 2] 조건문 / 반복문 기초 (if / switch / for / while)",
+    "date": "2025년 10월 16일",
+    "checklistCount": 3,
+    "status": "Not Started"
+  },
+  {
+    "day": 3,
+    "title": "[Day 3] 배열 / 객체 기초 (map / filter / reduce)",
+    "date": "2025년 10월 17일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 4,
+    "title": "[Day 4] ES6 문법 (구조 분해 / 스프레드 / 레스트)",
+    "date": "2025년 10월 18일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 5,
+    "title": "[Day 5] 함수 / this / 화살표 함수",
+    "date": "2025년 10월 19일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 6,
+    "title": "[Day 6] 모듈과 npm 기초 (import / export)",
+    "date": "2025년 10월 20일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 7,
+    "title": "[Day 7] 주간 복습 & 미니 과제",
+    "date": "2025년 10월 21일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 8,
+    "title": "[Day 8] TypeScript 입문 – 왜 TS인가",
+    "date": "2025년 10월 22일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 9,
+    "title": "[Day 9] 기본 타입 (Everyday Types)",
+    "date": "2025년 10월 23일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 10,
+    "title": "[Day 10] 함수 타입 정의 (Functions)",
+    "date": "2025년 10월 24일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 11,
+    "title": "[Day 11] 객체 타입 (interface / type / readonly / optional)",
+    "date": "2025년 10월 25일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 12,
+    "title": "[Day 12] Narrowing & Union",
+    "date": "2025년 10월 26일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 13,
+    "title": "[Day 13] Generics (제네릭)",
+    "date": "2025년 10월 27일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 14,
+    "title": "[Day 14] tsconfig 설정 및 프로젝트 준비",
+    "date": "2025년 10월 28일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 15,
+    "title": "[Day 15] Vite + React + TypeScript 셋업",
+    "date": "2025년 10월 29일",
+    "checklistCount": 3,
+    "status": "Not Started"
+  },
+  {
+    "day": 16,
+    "title": "[Day 16] JSX / 조건부 렌더링 / 리스트 렌더링",
+    "date": "2025년 10월 30일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 17,
+    "title": "[Day 17] 컴포넌트 & Props 타입",
+    "date": "2025년 10월 31일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 18,
+    "title": "[Day 18] State & 이벤트 / 제어 컴포넌트",
+    "date": "2025년 11월 1일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 19,
+    "title": "[Day 19] 상태 끌어올리기",
+    "date": "2025년 11월 2일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 20,
+    "title": "[Day 20] 스타일링 전략 (CSS Modules / Tailwind)",
+    "date": "2025년 11월 3일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 21,
+    "title": "[Day 21] 폼 & 유효성 검사(경량)",
+    "date": "2025년 11월 4일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 22,
+    "title": "[Day 22] 컴포넌트 설계 패턴(합성/역할 분리)",
+    "date": "2025년 11월 5일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 23,
+    "title": "[Day 23] 타입 안전 컴포넌트 (Discriminated Union)",
+    "date": "2025년 11월 6일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 24,
+    "title": "[Day 24] 테스트 기초 (React Testing Library)",
+    "date": "2025년 11월 7일",
+    "checklistCount": 1,
+    "status": "Not Started"
+  },
+  {
+    "day": 25,
+    "title": "[Day 25] 프로젝트 구조 정리 & 경로 별칭",
+    "date": "2025년 11월 8일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 26,
+    "title": "[Day 26] 접근성 & 마이크로 인터랙션",
+    "date": "2025년 11월 9일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 27,
+    "title": "[Day 27] 성능 기초 & 렌더링 비용",
+    "date": "2025년 11월 10일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 28,
+    "title": "[Day 28] 회고 & 소형 과제",
+    "date": "2025년 11월 11일",
+    "checklistCount": 3,
+    "status": "Not Started"
+  },
+  {
+    "day": 29,
+    "title": "[Day 29] 프로젝트 시작 – 폴더 구조 정리",
+    "date": "2025년 11월 12일",
+    "checklistCount": 3,
+    "status": "Not Started"
+  },
+  {
+    "day": 30,
+    "title": "[Day 30] 라우팅 기초 (React Router v6)",
+    "date": "2025년 11월 13일",
+    "checklistCount": 3,
+    "status": "Not Started"
+  },
+  {
+    "day": 31,
+    "title": "[Day 31] Todo 목록 UI 구현 (컴포넌트 설계)",
+    "date": "2025년 11월 14일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 32,
+    "title": "[Day 32] useState / Props 활용 입력 기능 추가",
+    "date": "2025년 11월 15일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 33,
+    "title": "[Day 33] Todo 삭제 / 체크 기능 추가",
+    "date": "2025년 11월 16일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 34,
+    "title": "[Day 34] Context 사용해 전역 상태 관리",
+    "date": "2025년 11월 17일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 35,
+    "title": "[Day 35] Reducer 패턴 도입 (상태 로직 분리)",
+    "date": "2025년 11월 18일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 36,
+    "title": "[Day 36] Custom Hook 추출 (useTodos)",
+    "date": "2025년 11월 19일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 37,
+    "title": "[Day 37] 로컬스토리지 데이터 영속화",
+    "date": "2025년 11월 20일",
+    "checklistCount": 1,
+    "status": "Not Started"
+  },
+  {
+    "day": 38,
+    "title": "[Day 38] 성능 최적화 (useMemo / useCallback)",
+    "date": "2025년 11월 21일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 39,
+    "title": "[Day 39] 컴포넌트 분리 / 디렉터리 정리",
+    "date": "2025년 11월 22일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 40,
+    "title": "[Day 40] UI 테스트 작성 (Jest + RTL)",
+    "date": "2025년 11월 23일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 41,
+    "title": "[Day 41] useEffect 활용 비동기 패칭",
+    "date": "2025년 11월 24일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 42,
+    "title": "[Day 42] axios / fetch 통합 API 모듈화",
+    "date": "2025년 11월 25일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 43,
+    "title": "[Day 43] 서버 데이터 연동 테스트 (JSON Placeholder)",
+    "date": "2025년 11월 26일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 44,
+    "title": "[Day 44] 로딩 / 에러 상태 관리",
+    "date": "2025년 11월 27일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 45,
+    "title": "[Day 45] 필터링 / 정렬 기능 추가",
+    "date": "2025년 11월 28일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 46,
+    "title": "[Day 46] Pagination 기초",
+    "date": "2025년 11월 29일",
+    "checklistCount": 1,
+    "status": "Not Started"
+  },
+  {
+    "day": 47,
+    "title": "[Day 47] 전역 에러 바운더리 적용",
+    "date": "2025년 11월 30일",
+    "checklistCount": 1,
+    "status": "Not Started"
+  },
+  {
+    "day": 48,
+    "title": "[Day 48] 다크모드 / 테마 토글",
+    "date": "2025년 12월 1일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 49,
+    "title": "[Day 49] 전역 모달 관리 (useModal)",
+    "date": "2025년 12월 2일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 50,
+    "title": "[Day 50] Todo 앱 테스트 통합 (Jest)",
+    "date": "2025년 12월 3일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 51,
+    "title": "[Day 51] CI/CD 기초 – GitHub Actions",
+    "date": "2025년 12월 4일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 52,
+    "title": "[Day 52] 환경 변수 관리 (.env)",
+    "date": "2025년 12월 5일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 53,
+    "title": "[Day 53] 코드 리뷰 준비 / 리팩토링",
+    "date": "2025년 12월 6일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 54,
+    "title": "[Day 54] 테스트 리포트 정리 / README 작성",
+    "date": "2025년 12월 7일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 55,
+    "title": "[Day 55] 배포 (Static Hosting / Netlify)",
+    "date": "2025년 12월 8일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 56,
+    "title": "[Day 56] 회고 / 완성 Todo 시연",
+    "date": "2025년 12월 9일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 57,
+    "title": "[Day 57] API 설계 및 axios 기반 비동기 통신",
+    "date": "2025년 12월 10일",
+    "checklistCount": 3,
+    "status": "Not Started"
+  },
+  {
+    "day": 58,
+    "title": "[Day 58] useEffect로 데이터 패칭 & 상태관리",
+    "date": "2025년 12월 11일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 59,
+    "title": "[Day 59] 에러 처리 & 로딩 상태 UI 개선",
+    "date": "2025년 12월 12일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 60,
+    "title": "[Day 60] React Context를 통한 전역 상태 공유",
+    "date": "2025년 12월 13일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 61,
+    "title": "[Day 61] Reducer와 Context 결합 (useReducer)",
+    "date": "2025년 12월 14일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 62,
+    "title": "[Day 62] React Query 기초 (TanStack Query)",
+    "date": "2025년 12월 15일",
+    "checklistCount": 3,
+    "status": "Not Started"
+  },
+  {
+    "day": 63,
+    "title": "[Day 63] React Query: Mutation & Optimistic Update",
+    "date": "2025년 12월 16일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 64,
+    "title": "[Day 64] Query Key 관리 및 invalidate",
+    "date": "2025년 12월 17일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 65,
+    "title": "[Day 65] Custom Hook으로 비즈니스 로직 추상화",
+    "date": "2025년 12월 18일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 66,
+    "title": "[Day 66] 에러 경계 (ErrorBoundary) 적용",
+    "date": "2025년 12월 19일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 67,
+    "title": "[Day 67] 성능 최적화: useMemo / useCallback 복습",
+    "date": "2025년 12월 20일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 68,
+    "title": "[Day 68] Suspense for Data Fetching (React 18)",
+    "date": "2025년 12월 21일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 69,
+    "title": "[Day 69] 프로젝트 통합 테스트 (API + Query)",
+    "date": "2025년 12월 22일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 70,
+    "title": "[Day 70] 회고 / React Query 리팩토링 마무리",
+    "date": "2025년 12월 23일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 71,
+    "title": "[Day 71] Next.js 소개 및 프로젝트 셋업",
+    "date": "2025년 12월 24일",
+    "checklistCount": 3,
+    "status": "Not Started"
+  },
+  {
+    "day": 72,
+    "title": "[Day 72] 파일 기반 라우팅(App Router)",
+    "date": "2025년 12월 25일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 73,
+    "title": "[Day 73] Server Component vs Client Component",
+    "date": "2025년 12월 26일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 74,
+    "title": "[Day 74] 데이터 페칭 (fetch, caching, revalidate)",
+    "date": "2025년 12월 27일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 75,
+    "title": "[Day 75] 동적 라우팅 & generateStaticParams",
+    "date": "2025년 12월 28일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 76,
+    "title": "[Day 76] 메타데이터 설정 & SEO 기초",
+    "date": "2025년 12월 29일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 77,
+    "title": "[Day 77] 이미지/폰트 최적화 (next/image, next/font)",
+    "date": "2025년 12월 30일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 78,
+    "title": "[Day 78] 상태관리 연동 (Context / Zustand 등)",
+    "date": "2025년 12월 31일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 79,
+    "title": "[Day 79] Form & 액션 (Server Actions 기초)",
+    "date": "2026년 1월 1일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 80,
+    "title": "[Day 80] Middleware / Edge Runtime",
+    "date": "2026년 1월 2일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 81,
+    "title": "[Day 81] Next.js + React Query 통합",
+    "date": "2026년 1월 3일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 82,
+    "title": "[Day 82] 환경 변수 / 설정 (next.config, .env)",
+    "date": "2026년 1월 4일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 83,
+    "title": "[Day 83] 배포 준비 (Vercel) & 성능 점검",
+    "date": "2026년 1월 5일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  },
+  {
+    "day": 84,
+    "title": "[Day 84] 최종 회고 / 기능 시연 & 문서화",
+    "date": "2026년 1월 6일",
+    "checklistCount": 2,
+    "status": "Not Started"
+  }
+];
+
+    // localStorage에서 완료 상태 가져오기
+    function getCompletedDays() {
+      const stored = localStorage.getItem('completed-days');
+      return stored ? JSON.parse(stored) : [];
+    }
+
+    // localStorage에 완료 상태 저장
+    function saveCompletedDays(completedDays) {
+      localStorage.setItem('completed-days', JSON.stringify(completedDays));
+    }
+
+    let completedDays = getCompletedDays();
+    let currentFilter = 'all';
+    let currentWeekFilter = 'all';
+    let searchQuery = '';
+
+    // 통계 업데이트
+    function updateStats() {
+      const completed = completedDays.length;
+      const remaining = 84 - completed;
+      const percentage = Math.round((completed / 84) * 100);
+      const currentWeek = Math.ceil((completed + 1) / 7);
+
+      document.getElementById('stat-completed').textContent = completed;
+      document.getElementById('stat-remaining').textContent = remaining;
+      document.getElementById('stat-percentage').textContent = percentage + '%';
+      document.getElementById('stat-week').textContent = currentWeek;
+
+      const progressBar = document.getElementById('progress-bar');
+      progressBar.style.width = percentage + '%';
+      progressBar.textContent = percentage + '%';
+    }
+
+    // 카드 렌더링
+    function renderCards() {
+      const grid = document.getElementById('cards-grid');
+      const noResults = document.getElementById('no-results');
+
+      let filteredDays = daysData.filter(day => {
+        // 상태 필터
+        const isCompleted = completedDays.includes(day.day);
+        if (currentFilter === 'done' && !isCompleted) return false;
+        if (currentFilter === 'todo' && isCompleted) return false;
+
+        // 주차 필터
+        if (currentWeekFilter !== 'all') {
+          const week = Math.ceil(day.day / 7);
+          if (week !== parseInt(currentWeekFilter)) return false;
+        }
+
+        // 검색
+        if (searchQuery) {
+          const title = day.title.toLowerCase();
+          if (!title.includes(searchQuery.toLowerCase())) return false;
+        }
+
+        return true;
+      });
+
+      if (filteredDays.length === 0) {
+        grid.style.display = 'none';
+        noResults.style.display = 'block';
+        return;
+      } else {
+        grid.style.display = 'grid';
+        noResults.style.display = 'none';
+      }
+
+      grid.innerHTML = filteredDays.map(day => {
+        const isCompleted = completedDays.includes(day.day);
+        const week = Math.ceil(day.day / 7);
+        const dayStr = day.day.toString().padStart(2, '0');
+
+        return `
+          <div class="day-card ${isCompleted ? 'completed' : ''}" onclick="window.location.href='day-${dayStr}.html'">
+            <div class="day-number">
+              <span>DAY ${day.day}</span>
+              <span class="week-badge">Week ${week}</span>
+            </div>
+            <div class="day-title">${escapeHtml(day.title)}</div>
+            <div class="day-meta">
+              <span>📅 ${day.date}</span>
+              <span>📝 ${day.checklistCount}개 항목</span>
+            </div>
+            <div class="checkbox-container" onclick="event.stopPropagation()">
+              <input type="checkbox" id="check-${day.day}" ${isCompleted ? 'checked' : ''} onchange="toggleComplete(${day.day})">
+              <label for="check-${day.day}">완료 표시</label>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // 완료 토글
+    function toggleComplete(dayNumber) {
+      const index = completedDays.indexOf(dayNumber);
+      if (index > -1) {
+        completedDays.splice(index, 1);
+      } else {
+        completedDays.push(dayNumber);
+      }
+      saveCompletedDays(completedDays);
+      updateStats();
+      renderCards();
+    }
+
+    // HTML 이스케이프
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    // 필터 버튼 이벤트
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        if (this.dataset.filter) {
+          document.querySelectorAll('[data-filter]').forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+          currentFilter = this.dataset.filter;
+        } else if (this.dataset.week) {
+          document.querySelectorAll('[data-week]').forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+          currentWeekFilter = this.dataset.week;
+        }
+        renderCards();
+      });
+    });
+
+    // 검색
+    document.getElementById('search-input').addEventListener('input', function(e) {
+      searchQuery = e.target.value;
+      renderCards();
+    });
+
+    // 주차 필터 생성
+    function generateWeekFilters() {
+      const container = document.getElementById('week-filters');
+      const weeks = ['all', 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
+      container.innerHTML = weeks.map(week => {
+        const label = week === 'all' ? '전체 주차' : `Week ${week}`;
+        const active = week === 'all' ? 'active' : '';
+        return `<button class="filter-btn ${active}" data-week="${week}">${label}</button>`;
+      }).join('');
+
+      container.querySelectorAll('button').forEach(btn => {
+        btn.addEventListener('click', function() {
+          container.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+          currentWeekFilter = this.dataset.week;
+          renderCards();
+        });
+      });
+    }
+
+    // 초기화
+    generateWeekFilters();
+    updateStats();
+    renderCards();
   </script>
-</body></html>
+</body>
+</html>
