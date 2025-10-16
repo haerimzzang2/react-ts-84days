@@ -1,0 +1,3193 @@
+Day,Date,Title,Resources,Checklist,VelogTitle,VelogBody,NotionLink,VelogURL
+Day 1,2025.10.16,React + TypeScript 학습 루틴 — Day 1,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 1 — React & TypeScript 실전 루틴,"# 🧠 Day 1 — 학습 주제
+> **학습 기간:** 2025.10.16  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 1/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 2 예고
+",https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,
+Day 2,2025.10.17,React + TypeScript 학습 루틴 — Day 2,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 2 — React & TypeScript 실전 루틴,"# 🧠 Day 2 — 학습 주제
+> **학습 기간:** 2025.10.17  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 2/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 3 예고
+",https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,
+Day 3,2025.10.18,React + TypeScript 학습 루틴 — Day 3,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 3 — React & TypeScript 실전 루틴,"# 🧠 Day 3 — 학습 주제
+> **학습 기간:** 2025.10.18  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 3/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 4 예고
+",https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,
+Day 4,2025.10.19,React + TypeScript 학습 루틴 — Day 4,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 4 — React & TypeScript 실전 루틴,"# 🧠 Day 4 — 학습 주제
+> **학습 기간:** 2025.10.19  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 4/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 5 예고
+",https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,
+Day 5,2025.10.20,React + TypeScript 학습 루틴 — Day 5,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 5 — React & TypeScript 실전 루틴,"# 🧠 Day 5 — 학습 주제
+> **학습 기간:** 2025.10.20  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 5/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 6 예고
+",https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,
+Day 6,2025.10.21,React + TypeScript 학습 루틴 — Day 6,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 6 — React & TypeScript 실전 루틴,"# 🧠 Day 6 — 학습 주제
+> **학습 기간:** 2025.10.21  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 6/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 7 예고
+",https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,
+Day 7,2025.10.22,React + TypeScript 학습 루틴 — Day 7,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 7 — React & TypeScript 실전 루틴,"# 🧠 Day 7 — 학습 주제
+> **학습 기간:** 2025.10.22  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 7/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 8 예고
+",https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,
+Day 8,2025.10.23,React + TypeScript 학습 루틴 — Day 8,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 8 — React & TypeScript 실전 루틴,"# 🧠 Day 8 — 학습 주제
+> **학습 기간:** 2025.10.23  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 8/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 9 예고
+",https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,
+Day 9,2025.10.24,React + TypeScript 학습 루틴 — Day 9,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 9 — React & TypeScript 실전 루틴,"# 🧠 Day 9 — 학습 주제
+> **학습 기간:** 2025.10.24  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 9/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 10 예고
+",https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,
+Day 10,2025.10.25,React + TypeScript 학습 루틴 — Day 10,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 10 — React & TypeScript 실전 루틴,"# 🧠 Day 10 — 학습 주제
+> **학습 기간:** 2025.10.25  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 10/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 11 예고
+",https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,
+Day 11,2025.10.26,React + TypeScript 학습 루틴 — Day 11,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 11 — React & TypeScript 실전 루틴,"# 🧠 Day 11 — 학습 주제
+> **학습 기간:** 2025.10.26  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 11/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 12 예고
+",https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,
+Day 12,2025.10.27,React + TypeScript 학습 루틴 — Day 12,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 12 — React & TypeScript 실전 루틴,"# 🧠 Day 12 — 학습 주제
+> **학습 기간:** 2025.10.27  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 12/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 13 예고
+",https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,
+Day 13,2025.10.28,React + TypeScript 학습 루틴 — Day 13,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 13 — React & TypeScript 실전 루틴,"# 🧠 Day 13 — 학습 주제
+> **학습 기간:** 2025.10.28  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 13/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 14 예고
+",https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,
+Day 14,2025.10.29,React + TypeScript 학습 루틴 — Day 14,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 14 — React & TypeScript 실전 루틴,"# 🧠 Day 14 — 학습 주제
+> **학습 기간:** 2025.10.29  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 14/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 15 예고
+",https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,
+Day 15,2025.10.30,React + TypeScript 학습 루틴 — Day 15,"- 루틴 소개 – https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 15 — React & TypeScript 실전 루틴,"# 🧠 Day 15 — 학습 주제
+> **학습 기간:** 2025.10.30  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 15/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 16 예고
+",https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,
+Day 16,2025.10.31,React + TypeScript 학습 루틴 — Day 16,"- 루틴 소개 – https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 16 — React & TypeScript 실전 루틴,"# 🧠 Day 16 — 학습 주제
+> **학습 기간:** 2025.10.31  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 16/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 17 예고
+",https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,
+Day 17,2025.11.01,React + TypeScript 학습 루틴 — Day 17,"- 루틴 소개 – https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 17 — React & TypeScript 실전 루틴,"# 🧠 Day 17 — 학습 주제
+> **학습 기간:** 2025.11.01  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 17/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 18 예고
+",https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,
+Day 18,2025.11.02,React + TypeScript 학습 루틴 — Day 18,"- 루틴 소개 – https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 18 — React & TypeScript 실전 루틴,"# 🧠 Day 18 — 학습 주제
+> **학습 기간:** 2025.11.02  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 18/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 19 예고
+",https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,
+Day 19,2025.11.03,React + TypeScript 학습 루틴 — Day 19,"- 루틴 소개 – https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 19 — React & TypeScript 실전 루틴,"# 🧠 Day 19 — 학습 주제
+> **학습 기간:** 2025.11.03  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 19/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 20 예고
+",https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,
+Day 20,2025.11.04,React + TypeScript 학습 루틴 — Day 20,"- 루틴 소개 – https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 20 — React & TypeScript 실전 루틴,"# 🧠 Day 20 — 학습 주제
+> **학습 기간:** 2025.11.04  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 20/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 21 예고
+",https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,
+Day 21,2025.11.05,React + TypeScript 학습 루틴 — Day 21,"- 루틴 소개 – https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 21 — React & TypeScript 실전 루틴,"# 🧠 Day 21 — 학습 주제
+> **학습 기간:** 2025.11.05  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 21/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 22 예고
+",https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,
+Day 22,2025.11.06,React + TypeScript 학습 루틴 — Day 22,"- 루틴 소개 – https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 22 — React & TypeScript 실전 루틴,"# 🧠 Day 22 — 학습 주제
+> **학습 기간:** 2025.11.06  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 22/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 23 예고
+",https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,
+Day 23,2025.11.07,React + TypeScript 학습 루틴 — Day 23,"- 루틴 소개 – https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 23 — React & TypeScript 실전 루틴,"# 🧠 Day 23 — 학습 주제
+> **학습 기간:** 2025.11.07  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 23/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 24 예고
+",https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,
+Day 24,2025.11.08,React + TypeScript 학습 루틴 — Day 24,"- 루틴 소개 – https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 24 — React & TypeScript 실전 루틴,"# 🧠 Day 24 — 학습 주제
+> **학습 기간:** 2025.11.08  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 24/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 25 예고
+",https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,
+Day 25,2025.11.09,React + TypeScript 학습 루틴 — Day 25,"- 루틴 소개 – https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 25 — React & TypeScript 실전 루틴,"# 🧠 Day 25 — 학습 주제
+> **학습 기간:** 2025.11.09  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 25/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 26 예고
+",https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,
+Day 26,2025.11.10,React + TypeScript 학습 루틴 — Day 26,"- 루틴 소개 – https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 26 — React & TypeScript 실전 루틴,"# 🧠 Day 26 — 학습 주제
+> **학습 기간:** 2025.11.10  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 26/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 27 예고
+",https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,
+Day 27,2025.11.11,React + TypeScript 학습 루틴 — Day 27,"- 루틴 소개 – https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 27 — React & TypeScript 실전 루틴,"# 🧠 Day 27 — 학습 주제
+> **학습 기간:** 2025.11.11  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 27/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 28 예고
+",https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,
+Day 28,2025.11.12,React + TypeScript 학습 루틴 — Day 28,"- 루틴 소개 – https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 28 — React & TypeScript 실전 루틴,"# 🧠 Day 28 — 학습 주제
+> **학습 기간:** 2025.11.12  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 28/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 29 예고
+",https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,
+Day 29,2025.11.13,React + TypeScript 학습 루틴 — Day 29,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 29 — React & TypeScript 실전 루틴,"# 🧠 Day 29 — 학습 주제
+> **학습 기간:** 2025.11.13  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 29/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 30 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 30,2025.11.14,React + TypeScript 학습 루틴 — Day 30,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 30 — React & TypeScript 실전 루틴,"# 🧠 Day 30 — 학습 주제
+> **학습 기간:** 2025.11.14  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 30/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 31 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 31,2025.11.15,React + TypeScript 학습 루틴 — Day 31,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 31 — React & TypeScript 실전 루틴,"# 🧠 Day 31 — 학습 주제
+> **학습 기간:** 2025.11.15  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 31/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 32 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 32,2025.11.16,React + TypeScript 학습 루틴 — Day 32,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 32 — React & TypeScript 실전 루틴,"# 🧠 Day 32 — 학습 주제
+> **학습 기간:** 2025.11.16  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 32/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 33 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 33,2025.11.17,React + TypeScript 학습 루틴 — Day 33,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 33 — React & TypeScript 실전 루틴,"# 🧠 Day 33 — 학습 주제
+> **학습 기간:** 2025.11.17  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 33/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 34 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 34,2025.11.18,React + TypeScript 학습 루틴 — Day 34,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 34 — React & TypeScript 실전 루틴,"# 🧠 Day 34 — 학습 주제
+> **학습 기간:** 2025.11.18  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 34/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 35 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 35,2025.11.19,React + TypeScript 학습 루틴 — Day 35,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 35 — React & TypeScript 실전 루틴,"# 🧠 Day 35 — 학습 주제
+> **학습 기간:** 2025.11.19  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 35/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 36 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 36,2025.11.20,React + TypeScript 학습 루틴 — Day 36,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 36 — React & TypeScript 실전 루틴,"# 🧠 Day 36 — 학습 주제
+> **학습 기간:** 2025.11.20  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 36/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 37 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 37,2025.11.21,React + TypeScript 학습 루틴 — Day 37,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 37 — React & TypeScript 실전 루틴,"# 🧠 Day 37 — 학습 주제
+> **학습 기간:** 2025.11.21  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 37/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 38 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 38,2025.11.22,React + TypeScript 학습 루틴 — Day 38,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 38 — React & TypeScript 실전 루틴,"# 🧠 Day 38 — 학습 주제
+> **학습 기간:** 2025.11.22  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 38/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 39 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 39,2025.11.23,React + TypeScript 학습 루틴 — Day 39,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 39 — React & TypeScript 실전 루틴,"# 🧠 Day 39 — 학습 주제
+> **학습 기간:** 2025.11.23  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 39/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 40 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 40,2025.11.24,React + TypeScript 학습 루틴 — Day 40,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 40 — React & TypeScript 실전 루틴,"# 🧠 Day 40 — 학습 주제
+> **학습 기간:** 2025.11.24  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 40/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 41 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 41,2025.11.25,React + TypeScript 학습 루틴 — Day 41,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 41 — React & TypeScript 실전 루틴,"# 🧠 Day 41 — 학습 주제
+> **학습 기간:** 2025.11.25  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 41/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 42 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 42,2025.11.26,React + TypeScript 학습 루틴 — Day 42,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 42 — React & TypeScript 실전 루틴,"# 🧠 Day 42 — 학습 주제
+> **학습 기간:** 2025.11.26  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 42/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 43 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 43,2025.11.27,React + TypeScript 학습 루틴 — Day 43,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 43 — React & TypeScript 실전 루틴,"# 🧠 Day 43 — 학습 주제
+> **학습 기간:** 2025.11.27  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 43/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 44 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 44,2025.11.28,React + TypeScript 학습 루틴 — Day 44,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 44 — React & TypeScript 실전 루틴,"# 🧠 Day 44 — 학습 주제
+> **학습 기간:** 2025.11.28  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 44/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 45 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 45,2025.11.29,React + TypeScript 학습 루틴 — Day 45,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 45 — React & TypeScript 실전 루틴,"# 🧠 Day 45 — 학습 주제
+> **학습 기간:** 2025.11.29  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 45/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 46 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 46,2025.11.30,React + TypeScript 학습 루틴 — Day 46,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 46 — React & TypeScript 실전 루틴,"# 🧠 Day 46 — 학습 주제
+> **학습 기간:** 2025.11.30  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 46/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 47 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 47,2025.12.01,React + TypeScript 학습 루틴 — Day 47,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 47 — React & TypeScript 실전 루틴,"# 🧠 Day 47 — 학습 주제
+> **학습 기간:** 2025.12.01  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 47/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 48 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 48,2025.12.02,React + TypeScript 학습 루틴 — Day 48,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 48 — React & TypeScript 실전 루틴,"# 🧠 Day 48 — 학습 주제
+> **학습 기간:** 2025.12.02  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 48/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 49 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 49,2025.12.03,React + TypeScript 학습 루틴 — Day 49,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 49 — React & TypeScript 실전 루틴,"# 🧠 Day 49 — 학습 주제
+> **학습 기간:** 2025.12.03  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 49/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 50 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 50,2025.12.04,React + TypeScript 학습 루틴 — Day 50,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 50 — React & TypeScript 실전 루틴,"# 🧠 Day 50 — 학습 주제
+> **학습 기간:** 2025.12.04  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 50/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 51 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 51,2025.12.05,React + TypeScript 학습 루틴 — Day 51,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 51 — React & TypeScript 실전 루틴,"# 🧠 Day 51 — 학습 주제
+> **학습 기간:** 2025.12.05  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 51/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 52 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 52,2025.12.06,React + TypeScript 학습 루틴 — Day 52,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 52 — React & TypeScript 실전 루틴,"# 🧠 Day 52 — 학습 주제
+> **학습 기간:** 2025.12.06  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 52/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 53 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 53,2025.12.07,React + TypeScript 학습 루틴 — Day 53,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 53 — React & TypeScript 실전 루틴,"# 🧠 Day 53 — 학습 주제
+> **학습 기간:** 2025.12.07  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 53/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 54 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 54,2025.12.08,React + TypeScript 학습 루틴 — Day 54,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 54 — React & TypeScript 실전 루틴,"# 🧠 Day 54 — 학습 주제
+> **학습 기간:** 2025.12.08  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 54/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 55 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 55,2025.12.09,React + TypeScript 학습 루틴 — Day 55,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 55 — React & TypeScript 실전 루틴,"# 🧠 Day 55 — 학습 주제
+> **학습 기간:** 2025.12.09  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 55/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 56 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 56,2025.12.10,React + TypeScript 학습 루틴 — Day 56,"- 루틴 소개 – https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 56 — React & TypeScript 실전 루틴,"# 🧠 Day 56 — 학습 주제
+> **학습 기간:** 2025.12.10  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 56/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 57 예고
+",https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,
+Day 57,2025.12.11,React + TypeScript 학습 루틴 — Day 57,"- 루틴 소개 – https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 57 — React & TypeScript 실전 루틴,"# 🧠 Day 57 — 학습 주제
+> **학습 기간:** 2025.12.11  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 57/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 58 예고
+",https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,
+Day 58,2025.12.12,React + TypeScript 학습 루틴 — Day 58,"- 루틴 소개 – https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 58 — React & TypeScript 실전 루틴,"# 🧠 Day 58 — 학습 주제
+> **학습 기간:** 2025.12.12  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 58/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 59 예고
+",https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,
+Day 59,2025.12.13,React + TypeScript 학습 루틴 — Day 59,"- 루틴 소개 – https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 59 — React & TypeScript 실전 루틴,"# 🧠 Day 59 — 학습 주제
+> **학습 기간:** 2025.12.13  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 59/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 60 예고
+",https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,
+Day 60,2025.12.14,React + TypeScript 학습 루틴 — Day 60,"- 루틴 소개 – https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 60 — React & TypeScript 실전 루틴,"# 🧠 Day 60 — 학습 주제
+> **학습 기간:** 2025.12.14  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 60/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 61 예고
+",https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,
+Day 61,2025.12.15,React + TypeScript 학습 루틴 — Day 61,"- 루틴 소개 – https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 61 — React & TypeScript 실전 루틴,"# 🧠 Day 61 — 학습 주제
+> **학습 기간:** 2025.12.15  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 61/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 62 예고
+",https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,
+Day 62,2025.12.16,React + TypeScript 학습 루틴 — Day 62,"- 루틴 소개 – https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 62 — React & TypeScript 실전 루틴,"# 🧠 Day 62 — 학습 주제
+> **학습 기간:** 2025.12.16  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 62/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 63 예고
+",https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,
+Day 63,2025.12.17,React + TypeScript 학습 루틴 — Day 63,"- 루틴 소개 – https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 63 — React & TypeScript 실전 루틴,"# 🧠 Day 63 — 학습 주제
+> **학습 기간:** 2025.12.17  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 63/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 64 예고
+",https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,
+Day 64,2025.12.18,React + TypeScript 학습 루틴 — Day 64,"- 루틴 소개 – https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 64 — React & TypeScript 실전 루틴,"# 🧠 Day 64 — 학습 주제
+> **학습 기간:** 2025.12.18  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 64/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 65 예고
+",https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,
+Day 65,2025.12.19,React + TypeScript 학습 루틴 — Day 65,"- 루틴 소개 – https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 65 — React & TypeScript 실전 루틴,"# 🧠 Day 65 — 학습 주제
+> **학습 기간:** 2025.12.19  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 65/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 66 예고
+",https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,
+Day 66,2025.12.20,React + TypeScript 학습 루틴 — Day 66,"- 루틴 소개 – https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 66 — React & TypeScript 실전 루틴,"# 🧠 Day 66 — 학습 주제
+> **학습 기간:** 2025.12.20  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 66/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 67 예고
+",https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,
+Day 67,2025.12.21,React + TypeScript 학습 루틴 — Day 67,"- 루틴 소개 – https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 67 — React & TypeScript 실전 루틴,"# 🧠 Day 67 — 학습 주제
+> **학습 기간:** 2025.12.21  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 67/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 68 예고
+",https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,
+Day 68,2025.12.22,React + TypeScript 학습 루틴 — Day 68,"- 루틴 소개 – https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 68 — React & TypeScript 실전 루틴,"# 🧠 Day 68 — 학습 주제
+> **학습 기간:** 2025.12.22  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 68/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 69 예고
+",https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,
+Day 69,2025.12.23,React + TypeScript 학습 루틴 — Day 69,"- 루틴 소개 – https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 69 — React & TypeScript 실전 루틴,"# 🧠 Day 69 — 학습 주제
+> **학습 기간:** 2025.12.23  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 69/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 70 예고
+",https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,
+Day 70,2025.12.24,React + TypeScript 학습 루틴 — Day 70,"- 루틴 소개 – https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 70 — React & TypeScript 실전 루틴,"# 🧠 Day 70 — 학습 주제
+> **학습 기간:** 2025.12.24  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 70/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 71 예고
+",https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,
+Day 71,2025.12.25,React + TypeScript 학습 루틴 — Day 71,"- 루틴 소개 – https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 71 — React & TypeScript 실전 루틴,"# 🧠 Day 71 — 학습 주제
+> **학습 기간:** 2025.12.25  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 71/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 72 예고
+",https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,
+Day 72,2025.12.26,React + TypeScript 학습 루틴 — Day 72,"- 루틴 소개 – https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 72 — React & TypeScript 실전 루틴,"# 🧠 Day 72 — 학습 주제
+> **학습 기간:** 2025.12.26  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 72/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 73 예고
+",https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,
+Day 73,2025.12.27,React + TypeScript 학습 루틴 — Day 73,"- 루틴 소개 – https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 73 — React & TypeScript 실전 루틴,"# 🧠 Day 73 — 학습 주제
+> **학습 기간:** 2025.12.27  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 73/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 74 예고
+",https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,
+Day 74,2025.12.28,React + TypeScript 학습 루틴 — Day 74,"- 루틴 소개 – https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 74 — React & TypeScript 실전 루틴,"# 🧠 Day 74 — 학습 주제
+> **학습 기간:** 2025.12.28  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 74/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 75 예고
+",https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,
+Day 75,2025.12.29,React + TypeScript 학습 루틴 — Day 75,"- 루틴 소개 – https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 75 — React & TypeScript 실전 루틴,"# 🧠 Day 75 — 학습 주제
+> **학습 기간:** 2025.12.29  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 75/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 76 예고
+",https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,
+Day 76,2025.12.30,React + TypeScript 학습 루틴 — Day 76,"- 루틴 소개 – https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 76 — React & TypeScript 실전 루틴,"# 🧠 Day 76 — 학습 주제
+> **학습 기간:** 2025.12.30  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 76/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 77 예고
+",https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,
+Day 77,2025.12.31,React + TypeScript 학습 루틴 — Day 77,"- 루틴 소개 – https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 77 — React & TypeScript 실전 루틴,"# 🧠 Day 77 — 학습 주제
+> **학습 기간:** 2025.12.31  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 77/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 78 예고
+",https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,
+Day 78,2026.01.01,React + TypeScript 학습 루틴 — Day 78,"- 루틴 소개 – https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 78 — React & TypeScript 실전 루틴,"# 🧠 Day 78 — 학습 주제
+> **학습 기간:** 2026.01.01  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 78/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 79 예고
+",https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,
+Day 79,2026.01.02,React + TypeScript 학습 루틴 — Day 79,"- 루틴 소개 – https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 79 — React & TypeScript 실전 루틴,"# 🧠 Day 79 — 학습 주제
+> **학습 기간:** 2026.01.02  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 79/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 80 예고
+",https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,
+Day 80,2026.01.03,React + TypeScript 학습 루틴 — Day 80,"- 루틴 소개 – https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 80 — React & TypeScript 실전 루틴,"# 🧠 Day 80 — 학습 주제
+> **학습 기간:** 2026.01.03  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 80/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 81 예고
+",https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,
+Day 81,2026.01.04,React + TypeScript 학습 루틴 — Day 81,"- 루틴 소개 – https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 81 — React & TypeScript 실전 루틴,"# 🧠 Day 81 — 학습 주제
+> **학습 기간:** 2026.01.04  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 81/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 82 예고
+",https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,
+Day 82,2026.01.05,React + TypeScript 학습 루틴 — Day 82,"- 루틴 소개 – https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 82 — React & TypeScript 실전 루틴,"# 🧠 Day 82 — 학습 주제
+> **학습 기간:** 2026.01.05  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 82/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 83 예고
+",https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,
+Day 83,2026.01.06,React + TypeScript 학습 루틴 — Day 83,"- 루틴 소개 – https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 83 — React & TypeScript 실전 루틴,"# 🧠 Day 83 — 학습 주제
+> **학습 기간:** 2026.01.06  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 83/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 84 예고
+",https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,
+Day 84,2026.01.07,React + TypeScript 학습 루틴 — Day 84,"- 루틴 소개 – https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+- MDN JavaScript – https://developer.mozilla.org/ko/docs/Web/JavaScript","- [ ] 오늘 목표 달성
+- [ ] 실습 코드 기록
+- [ ] 회고 작성",🧠 Day 84 — React & TypeScript 실전 루틴,"# 🧠 Day 84 — 학습 주제
+> **학습 기간:** 2026.01.07  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 84/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 개념 복습/실습
+- 작은 예제 한 개 완성
+
+## 🎥 참고 자료
+- 📘 MDN – JavaScript 개요: https://developer.mozilla.org/ko/docs/Web/JavaScript
+- 🔗 노션 섹션: https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f
+
+## 💻 실습 코드 (예시)
+```ts
+function greet(name: string) {
+  return `안녕하세요, ${name}!`;
+}
+console.log(greet(""해림""));
+```
+
+## ✅ 체크리스트
+- [ ] 개념 설명 가능
+- [ ] 예제 코드 작성
+- [ ] 회고 작성
+
+## 📝 오늘의 회고
+✅ 배운 점: …  
+❓ 헷갈린 점: …  
+💡 개선 포인트: …  
+
+📌 내일 목표: Day 85 예고
+",https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,
