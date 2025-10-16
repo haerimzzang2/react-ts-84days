@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 back_button_injector.py
@@ -39,7 +39,6 @@ def inject_into_html(html_text: str, label: str, style: str) -> str:
     if MARKER in html_text:
         return html_text  # already injected
 
-    # Prepare snippet
     snippet = (
         f'{MARKER}\n'
         f'<a href="index.html" style="{style}">'
@@ -47,7 +46,6 @@ def inject_into_html(html_text: str, label: str, style: str) -> str:
         f'</a>\n'
     )
 
-    # Inject right after <body ...>
     pattern = re.compile(r"<body[^>]*>", re.IGNORECASE)
     m = pattern.search(html_text)
     if not m:
@@ -69,7 +67,6 @@ def patch_folder(folder: Path, label: str, style: str) -> int:
         if new_text != text:
             p.write_text(new_text, encoding="utf-8")
             count += 1
-    # Also patch index.html (top navigation back to itself isn't necessary, so we skip)
     return count
 
 def main():
