@@ -1,0 +1,4358 @@
+﻿이름,Checklist,Date,Notes,NotionLink,Resources,Status,Title,VelogBody,VelogTitle,VelogURL
+Day 1,"[ ] let/const 차이 설명 가능
+[ ] 템플릿 리터럴 사용
+[ ] 콘솔 출력",2025년 10월 15일,,https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,"드림코딩 - JS 한방정리(2024) Trim – https://www.youtube.com/watch?v=KF6t61yuPCY
+MDN 변수/상수 – https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps/Variables
+템플릿 리터럴 – https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Template_literals",Not Started,자바스크립트 시작 (let / const · 템플릿 리터럴),"# 🧠 Day 1 — 자바스크립트 시작 (let / const · 템플릿 리터럴)
+
+> **학습 기간:** 2025.10.15  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 1/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- let/const 차이 설명 가능
+- 템플릿 리터럴 사용
+- 콘솔 출력
+
+---
+
+## 🎥 참고 자료
+- 📺 [드림코딩 - JS 한방정리(2024) Trim](https://www.youtube.com/watch?v=KF6t61yuPCY)
+- 📘 [MDN 변수/상수](https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps/Variables)
+- 📘 [템플릿 리터럴](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Template_literals)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] let/const 차이 설명 가능
+- [ ] 템플릿 리터럴 사용
+- [ ] 콘솔 출력
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+조건문 / 반복문 기초 (if / switch / for / while)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0)
+",[Day 1] 자바스크립트 시작 (let / const · 템플릿 리터럴),https://velog.io/@gofla333/day-01-자바스크립트-시작-let-const-템플릿-리터럴
+Day 2,"[ ] if/switch 구분
+[ ] for/while 사용
+[ ] break/continue 이해",2025년 10월 16일,,https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,"조건문 기초 – https://developer.mozilla.org/ko/docs/Learn/JavaScript/Building_blocks/conditionals
+반복/이터레이션 – https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Loops_and_iteration",Not Started,조건문 / 반복문 기초 (if / switch / for / while),"# 🧠 Day 2 — 조건문 / 반복문 기초 (if / switch / for / while)
+
+> **학습 기간:** 2025.10.16  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 2/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- if/switch 구분
+- for/while 사용
+- break/continue 이해
+
+---
+
+## 🎥 참고 자료
+- 📘 [조건문 기초](https://developer.mozilla.org/ko/docs/Learn/JavaScript/Building_blocks/conditionals)
+- 📘 [반복/이터레이션](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Loops_and_iteration)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] if/switch 구분
+- [ ] for/while 사용
+- [ ] break/continue 이해
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+배열 / 객체 기초 (map / filter / reduce)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0)
+",[Day 2] 조건문 / 반복문 기초 (if / switch / for / while),https://velog.io/@gofla333/day-02-조건문-반복문-기초-if-switch-for-while
+Day 3,"[ ] map/filter/reduce 차이 이해
+[ ] 객체 속성 조작",2025년 10월 17일,,https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,"Array – https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array
+map – https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+filter – https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+reduce – https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+Object – https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object",Not Started,배열 / 객체 기초 (map / filter / reduce),"# 🧠 Day 3 — 배열 / 객체 기초 (map / filter / reduce)
+
+> **학습 기간:** 2025.10.17  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 3/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- map/filter/reduce 차이 이해
+- 객체 속성 조작
+
+---
+
+## 🎥 참고 자료
+- 📘 [Array](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- 📘 [map](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- 📘 [filter](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+- 📘 [reduce](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+- 📘 [Object](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] map/filter/reduce 차이 이해
+- [ ] 객체 속성 조작
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+ES6 문법 (구조 분해 / 스프레드 / 레스트)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0)
+",[Day 3] 배열 / 객체 기초 (map / filter / reduce),https://velog.io/@gofla333/day-03-배열-객체-기초-map-filter-reduce
+Day 4,"[ ] 객체/배열 구조 분해
+[ ] 스프레드/레스트 비교",2025년 10월 18일,,https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,"구조 분해 – https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+스프레드 – https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+레스트 파라미터 – https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/rest_parameters",Not Started,ES6 문법 (구조 분해 / 스프레드 / 레스트),"# 🧠 Day 4 — ES6 문법 (구조 분해 / 스프레드 / 레스트)
+
+> **학습 기간:** 2025.10.18  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 4/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 객체/배열 구조 분해
+- 스프레드/레스트 비교
+
+---
+
+## 🎥 참고 자료
+- 📘 [구조 분해](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+- 📘 [스프레드](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+- 📘 [레스트 파라미터](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 객체/배열 구조 분해
+- [ ] 스프레드/레스트 비교
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+함수 / this / 화살표 함수  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0)
+",[Day 4] ES6 문법 (구조 분해 / 스프레드 / 레스트),https://velog.io/@gofla333/day-04-es6-문법-구조-분해-스프레드-레스트
+Day 5,"[ ] 선언식 vs 표현식
+[ ] this 바인딩 차이",2025년 10월 19일,,https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,"화살표 함수 – https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+this 바인딩 – https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/this",Not Started,함수 / this / 화살표 함수,"# 🧠 Day 5 — 함수 / this / 화살표 함수
+
+> **학습 기간:** 2025.10.19  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 5/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 선언식 vs 표현식
+- this 바인딩 차이
+
+---
+
+## 🎥 참고 자료
+- 📘 [화살표 함수](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+- 📘 [this 바인딩](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/this)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 선언식 vs 표현식
+- [ ] this 바인딩 차이
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+모듈과 npm 기초 (import / export)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0)
+",[Day 5] 함수 / this / 화살표 함수,https://velog.io/@gofla333/day-05-함수-this-화살표-함수
+Day 6,"[ ] import/export 사용
+[ ] npm init 프로젝트 생성",2025년 10월 20일,,https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,"JS 모듈 – https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Modules
+npm init – https://docs.npmjs.com/cli/v10/commands/npm-init",Not Started,모듈과 npm 기초 (import / export),"# 🧠 Day 6 — 모듈과 npm 기초 (import / export)
+
+> **학습 기간:** 2025.10.20  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 6/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- import/export 사용
+- npm init 프로젝트 생성
+
+---
+
+## 🎥 참고 자료
+- 📘 [JS 모듈](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Modules)
+- 🔗 [npm init](https://docs.npmjs.com/cli/v10/commands/npm-init)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] import/export 사용
+- [ ] npm init 프로젝트 생성
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+주간 복습 & 미니 과제  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0)
+",[Day 6] 모듈과 npm 기초 (import / export),https://velog.io/@gofla333/day-06-모듈과-npm-기초-import-export
+Day 7,"[ ] 요약 노트 작성
+[ ] Git 업로드",2025년 10월 21일,,https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,MDN JS 학습서 – https://developer.mozilla.org/ko/docs/Learn/JavaScript,Not Started,주간 복습 & 미니 과제,"# 🧠 Day 7 — 주간 복습 & 미니 과제
+
+> **학습 기간:** 2025.10.21  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 7/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 요약 노트 작성
+- Git 업로드
+
+---
+
+## 🎥 참고 자료
+- 📘 [MDN JS 학습서](https://developer.mozilla.org/ko/docs/Learn/JavaScript)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 요약 노트 작성
+- [ ] Git 업로드
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+TypeScript 입문 – 왜 TS인가  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0)
+",[Day 7] 주간 복습 & 미니 과제,https://velog.io/@gofla333/day-07-주간-복습-미니-과제
+Day 8,"[ ] JS vs TS 차이 정리
+[ ] 함수에 타입 지정",2025년 10월 22일,,https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,TS Intro (ko) – https://www.typescriptlang.org/ko/docs/handbook/intro.html,Not Started,TypeScript 입문 – 왜 TS인가,"# 🧠 Day 8 — TypeScript 입문 – 왜 TS인가
+
+> **학습 기간:** 2025.10.22  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 8/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- JS vs TS 차이 정리
+- 함수에 타입 지정
+
+---
+
+## 🎥 참고 자료
+- 📘 [TS Intro (ko)](https://www.typescriptlang.org/ko/docs/handbook/intro.html)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] JS vs TS 차이 정리
+- [ ] 함수에 타입 지정
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+기본 타입 (Everyday Types)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0)
+",[Day 8] TypeScript 입문 – 왜 TS인가,https://velog.io/@gofla333/day-08-typescript-입문-–-왜-ts인가
+Day 9,"[ ] 기본 타입 선언
+[ ] 배열/객체 타입 정의",2025년 10월 23일,,https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,Everyday Types – https://www.typescriptlang.org/docs/handbook/2/everyday-types.html,Not Started,기본 타입 (Everyday Types),"# 🧠 Day 9 — 기본 타입 (Everyday Types)
+
+> **학습 기간:** 2025.10.23  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 9/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 기본 타입 선언
+- 배열/객체 타입 정의
+
+---
+
+## 🎥 참고 자료
+- 📘 [Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 기본 타입 선언
+- [ ] 배열/객체 타입 정의
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+함수 타입 정의 (Functions)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0)
+",[Day 9] 기본 타입 (Everyday Types),https://velog.io/@gofla333/day-09-기본-타입-everyday-types
+Day 10,"[ ] 매개변수/반환 타입 명시
+[ ] 함수 타입 별칭",2025년 10월 24일,,https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,TS Functions – https://www.typescriptlang.org/docs/handbook/2/functions.html,Not Started,함수 타입 정의 (Functions),"# 🧠 Day 10 — 함수 타입 정의 (Functions)
+
+> **학습 기간:** 2025.10.24  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 10/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 매개변수/반환 타입 명시
+- 함수 타입 별칭
+
+---
+
+## 🎥 참고 자료
+- 📘 [TS Functions](https://www.typescriptlang.org/docs/handbook/2/functions.html)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 매개변수/반환 타입 명시
+- [ ] 함수 타입 별칭
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+객체 타입 (interface / type / readonly / optional)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0)
+",[Day 10] 함수 타입 정의 (Functions),https://velog.io/@gofla333/day-10-함수-타입-정의-functions
+Day 11,"[ ] interface vs type
+[ ] optional/readonly",2025년 10월 25일,,https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,TS Objects – https://www.typescriptlang.org/docs/handbook/2/objects.html,Not Started,객체 타입 (interface / type / readonly / optional),"# 🧠 Day 11 — 객체 타입 (interface / type / readonly / optional)
+
+> **학습 기간:** 2025.10.25  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 11/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- interface vs type
+- optional/readonly
+
+---
+
+## 🎥 참고 자료
+- 📘 [TS Objects](https://www.typescriptlang.org/docs/handbook/2/objects.html)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] interface vs type
+- [ ] optional/readonly
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Narrowing & Union  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0)
+",[Day 11] 객체 타입 (interface / type / readonly / optional),https://velog.io/@gofla333/day-11-객체-타입-interface-type-readonly-optional
+Day 12,"[ ] typeof/in 가드
+[ ] 유니온 분기",2025년 10월 26일,,https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,TS Narrowing – https://www.typescriptlang.org/docs/handbook/2/narrowing.html,Not Started,Narrowing & Union,"# 🧠 Day 12 — Narrowing & Union
+
+> **학습 기간:** 2025.10.26  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 12/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- typeof/in 가드
+- 유니온 분기
+
+---
+
+## 🎥 참고 자료
+- 📘 [TS Narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] typeof/in 가드
+- [ ] 유니온 분기
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Generics (제네릭)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0)
+",[Day 12] Narrowing & Union,https://velog.io/@gofla333/day-12-narrowing-union
+Day 13,"[ ] 제네릭 함수 작성
+[ ] 타입 파라미터 추론",2025년 10월 27일,,https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,TS Generics – https://www.typescriptlang.org/docs/handbook/2/generics.html,Not Started,Generics (제네릭),"# 🧠 Day 13 — Generics (제네릭)
+
+> **학습 기간:** 2025.10.27  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 13/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 제네릭 함수 작성
+- 타입 파라미터 추론
+
+---
+
+## 🎥 참고 자료
+- 📘 [TS Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 제네릭 함수 작성
+- [ ] 타입 파라미터 추론
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+tsconfig 설정 및 프로젝트 준비  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0)
+",[Day 13] Generics (제네릭),https://velog.io/@gofla333/day-13-generics-제네릭
+Day 14,"[ ] tsc --init
+[ ] strict 옵션 확인",2025년 10월 28일,,https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0,TSConfig – https://www.typescriptlang.org/tsconfig,Not Started,tsconfig 설정 및 프로젝트 준비,"# 🧠 Day 14 — tsconfig 설정 및 프로젝트 준비
+
+> **학습 기간:** 2025.10.28  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 14/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- tsc --init
+- strict 옵션 확인
+
+---
+
+## 🎥 참고 자료
+- 📘 [TSConfig](https://www.typescriptlang.org/tsconfig)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] tsc --init
+- [ ] strict 옵션 확인
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Vite + React + TypeScript 셋업  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Day-1-14-28d811fbadda81b28ae0cdc4dcdd33d0)
+",[Day 14] tsconfig 설정 및 프로젝트 준비,https://velog.io/@gofla333/day-14-tsconfig-설정-및-프로젝트-준비
+Day 15,"[ ] Vite react-ts 프로젝트 생성
+[ ] tsconfig 확인
+[ ] 로컬 실행",2025년 10월 29일,,https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,"Vite 가이드 – https://vitejs.dev/guide/
+React Learn – https://react.dev/learn",Not Started,Vite + React + TypeScript 셋업,"# 🧠 Day 15 — Vite + React + TypeScript 셋업
+
+> **학습 기간:** 2025.10.29  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 15/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- Vite react-ts 프로젝트 생성
+- tsconfig 확인
+- 로컬 실행
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Vite 가이드](https://vitejs.dev/guide/)
+- 🔗 [React Learn](https://react.dev/learn)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] Vite react-ts 프로젝트 생성
+- [ ] tsconfig 확인
+- [ ] 로컬 실행
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+JSX / 조건부 렌더링 / 리스트 렌더링  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2)
+",[Day 15] Vite + React + TypeScript 셋업,https://velog.io/@gofla333/day-15-vite-react-typescript-셋업
+Day 16,"[ ] key 사용
+[ ] 조건부 렌더링 구현",2025년 10월 30일,,https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,"JSX – https://react.dev/learn/writing-markup-with-jsx
+리스트 렌더링 – https://react.dev/learn/rendering-lists",Not Started,JSX / 조건부 렌더링 / 리스트 렌더링,"# 🧠 Day 16 — JSX / 조건부 렌더링 / 리스트 렌더링
+
+> **학습 기간:** 2025.10.30  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 16/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- key 사용
+- 조건부 렌더링 구현
+
+---
+
+## 🎥 참고 자료
+- 🔗 [JSX](https://react.dev/learn/writing-markup-with-jsx)
+- 🔗 [리스트 렌더링](https://react.dev/learn/rendering-lists)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] key 사용
+- [ ] 조건부 렌더링 구현
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+컴포넌트 & Props 타입  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2)
+",[Day 16] JSX / 조건부 렌더링 / 리스트 렌더링,https://velog.io/@gofla333/day-16-jsx-조건부-렌더링-리스트-렌더링
+Day 17,"[ ] props 타입 지정
+[ ] children 합성",2025년 10월 31일,,https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,"첫 컴포넌트 – https://react.dev/learn/your-first-component
+Props 전달 – https://react.dev/learn/passing-props-to-a-component",Not Started,컴포넌트 & Props 타입,"# 🧠 Day 17 — 컴포넌트 & Props 타입
+
+> **학습 기간:** 2025.10.31  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 17/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- props 타입 지정
+- children 합성
+
+---
+
+## 🎥 참고 자료
+- 🔗 [첫 컴포넌트](https://react.dev/learn/your-first-component)
+- 🔗 [Props 전달](https://react.dev/learn/passing-props-to-a-component)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] props 타입 지정
+- [ ] children 합성
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+State & 이벤트 / 제어 컴포넌트  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2)
+",[Day 17] 컴포넌트 & Props 타입,https://velog.io/@gofla333/day-17-컴포넌트-props-타입
+Day 18,"[ ] useState 실습
+[ ] 제어 입력 구현",2025년 11월 1일,,https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,"useState – https://react.dev/reference/react/useState
+이벤트 응답 – https://react.dev/learn/responding-to-events",Not Started,State & 이벤트 / 제어 컴포넌트,"# 🧠 Day 18 — State & 이벤트 / 제어 컴포넌트
+
+> **학습 기간:** 2025.11.01  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 18/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- useState 실습
+- 제어 입력 구현
+
+---
+
+## 🎥 참고 자료
+- 🔗 [useState](https://react.dev/reference/react/useState)
+- 🔗 [이벤트 응답](https://react.dev/learn/responding-to-events)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] useState 실습
+- [ ] 제어 입력 구현
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+상태 끌어올리기  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2)
+",[Day 18] State & 이벤트 / 제어 컴포넌트,https://velog.io/@gofla333/day-18-state-이벤트-제어-컴포넌트
+Day 19,"[ ] 부모로 상태 이동
+[ ] 컴포넌트 역할 분리",2025년 11월 2일,,https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,상태 공유 – https://react.dev/learn/sharing-state-between-components,Not Started,상태 끌어올리기,"# 🧠 Day 19 — 상태 끌어올리기
+
+> **학습 기간:** 2025.11.02  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 19/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 부모로 상태 이동
+- 컴포넌트 역할 분리
+
+---
+
+## 🎥 참고 자료
+- 🔗 [상태 공유](https://react.dev/learn/sharing-state-between-components)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 부모로 상태 이동
+- [ ] 컴포넌트 역할 분리
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+스타일링 전략 (CSS Modules / Tailwind)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2)
+",[Day 19] 상태 끌어올리기,https://velog.io/@gofla333/day-19-상태-끌어올리기
+Day 20,"[ ] 스타일 전략 선택
+[ ] 공통 버튼/배지 컴포넌트",2025년 11월 3일,,https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,Tailwind 설치 – https://tailwindcss.com/docs/installation,Not Started,스타일링 전략 (CSS Modules / Tailwind),"# 🧠 Day 20 — 스타일링 전략 (CSS Modules / Tailwind)
+
+> **학습 기간:** 2025.11.03  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 20/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 스타일 전략 선택
+- 공통 버튼/배지 컴포넌트
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Tailwind 설치](https://tailwindcss.com/docs/installation)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 스타일 전략 선택
+- [ ] 공통 버튼/배지 컴포넌트
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+폼 & 유효성 검사(경량)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2)
+",[Day 20] 스타일링 전략 (CSS Modules / Tailwind),https://velog.io/@gofla333/day-20-스타일링-전략-css-modules-tailwind
+Day 21,"[ ] 기본 검증
+[ ] 에러 메시지 UX",2025년 11월 4일,,https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,React 폼 – https://react.dev/learn/forms,Not Started,폼 & 유효성 검사(경량),"# 🧠 Day 21 — 폼 & 유효성 검사(경량)
+
+> **학습 기간:** 2025.11.04  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 21/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 기본 검증
+- 에러 메시지 UX
+
+---
+
+## 🎥 참고 자료
+- 🔗 [React 폼](https://react.dev/learn/forms)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 기본 검증
+- [ ] 에러 메시지 UX
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+컴포넌트 설계 패턴(합성/역할 분리)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2)
+",[Day 21] 폼 & 유효성 검사(경량),https://velog.io/@gofla333/day-21-폼-유효성-검사-경량
+Day 22,"[ ] children 합성
+[ ] 표현/컨테이너 분리",2025년 11월 5일,,https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,children – https://react.dev/learn/passing-props-to-a-component#children,Not Started,컴포넌트 설계 패턴(합성/역할 분리),"# 🧠 Day 22 — 컴포넌트 설계 패턴(합성/역할 분리)
+
+> **학습 기간:** 2025.11.05  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 22/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- children 합성
+- 표현/컨테이너 분리
+
+---
+
+## 🎥 참고 자료
+- 🔗 [children](https://react.dev/learn/passing-props-to-a-component#children)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] children 합성
+- [ ] 표현/컨테이너 분리
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+타입 안전 컴포넌트 (Discriminated Union)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2)
+",[Day 22] 컴포넌트 설계 패턴(합성/역할 분리),https://velog.io/@gofla333/day-22-컴포넌트-설계-패턴-합성-역할-분리
+Day 23,"[ ] prop 조합 제한
+[ ] 케이스 안전 분기",2025년 11월 6일,,https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,Discriminated unions – https://www.typescriptlang.org/docs/handbook/2/narrowing.html#discriminated-unions,Not Started,타입 안전 컴포넌트 (Discriminated Union),"# 🧠 Day 23 — 타입 안전 컴포넌트 (Discriminated Union)
+
+> **학습 기간:** 2025.11.06  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 23/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- prop 조합 제한
+- 케이스 안전 분기
+
+---
+
+## 🎥 참고 자료
+- 📘 [Discriminated unions](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#discriminated-unions)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] prop 조합 제한
+- [ ] 케이스 안전 분기
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+테스트 기초 (React Testing Library)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2)
+",[Day 23] 타입 안전 컴포넌트 (Discriminated Union),https://velog.io/@gofla333/day-23-타입-안전-컴포넌트-discriminated-union
+Day 24,[ ] 렌더/이벤트 테스트 구현,2025년 11월 7일,,https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,RTL – https://testing-library.com/docs/react-testing-library/intro/,Not Started,테스트 기초 (React Testing Library),"# 🧠 Day 24 — 테스트 기초 (React Testing Library)
+
+> **학습 기간:** 2025.11.07  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 24/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 렌더/이벤트 테스트 구현
+
+---
+
+## 🎥 참고 자료
+- 🔗 [RTL](https://testing-library.com/docs/react-testing-library/intro/)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 렌더/이벤트 테스트 구현
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+프로젝트 구조 정리 & 경로 별칭  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2)
+",[Day 24] 테스트 기초 (React Testing Library),https://velog.io/@gofla333/day-24-테스트-기초-react-testing-library
+Day 25,"[ ] 공통 타입 분리
+[ ] paths 별칭 적용",2025년 11월 8일,,https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,Context/Reducer 가이드 – https://react.dev/learn/scaling-up-with-reducer-and-context,Not Started,프로젝트 구조 정리 & 경로 별칭,"# 🧠 Day 25 — 프로젝트 구조 정리 & 경로 별칭
+
+> **학습 기간:** 2025.11.08  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 25/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 공통 타입 분리
+- paths 별칭 적용
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Context/Reducer 가이드](https://react.dev/learn/scaling-up-with-reducer-and-context)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 공통 타입 분리
+- [ ] paths 별칭 적용
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+접근성 & 마이크로 인터랙션  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2)
+",[Day 25] 프로젝트 구조 정리 & 경로 별칭,https://velog.io/@gofla333/day-25-프로젝트-구조-정리-경로-별칭
+Day 26,"[ ] aria/role 적용
+[ ] 키보드 조작 확인",2025년 11월 9일,,https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,접근성 – https://react.dev/learn/accessible-react-apps,Not Started,접근성 & 마이크로 인터랙션,"# 🧠 Day 26 — 접근성 & 마이크로 인터랙션
+
+> **학습 기간:** 2025.11.09  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 26/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- aria/role 적용
+- 키보드 조작 확인
+
+---
+
+## 🎥 참고 자료
+- 🔗 [접근성](https://react.dev/learn/accessible-react-apps)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] aria/role 적용
+- [ ] 키보드 조작 확인
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+성능 기초 & 렌더링 비용  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2)
+",[Day 26] 접근성 & 마이크로 인터랙션,https://velog.io/@gofla333/day-26-접근성-마이크로-인터랙션
+Day 27,"[ ] 불변성/메모이제이션
+[ ] key 오류 확인",2025년 11월 10일,,https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,성능 최적화 – https://react.dev/learn/optimizing-performance,Not Started,성능 기초 & 렌더링 비용,"# 🧠 Day 27 — 성능 기초 & 렌더링 비용
+
+> **학습 기간:** 2025.11.10  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 27/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 불변성/메모이제이션
+- key 오류 확인
+
+---
+
+## 🎥 참고 자료
+- 🔗 [성능 최적화](https://react.dev/learn/optimizing-performance)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 불변성/메모이제이션
+- [ ] key 오류 확인
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+회고 & 소형 과제  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2)
+",[Day 27] 성능 기초 & 렌더링 비용,https://velog.io/@gofla333/day-27-성능-기초-렌더링-비용
+Day 28,"[ ] 요약 노트
+[ ] 미니 과제 제출
+[ ] Git 업로드",2025년 11월 11일,,https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2,— – —,Not Started,회고 & 소형 과제,"# 🧠 Day 28 — 회고 & 소형 과제
+
+> **학습 기간:** 2025.11.11  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 28/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 요약 노트
+- 미니 과제 제출
+- Git 업로드
+
+---
+
+## 🎥 참고 자료
+- 🔗 [—](—)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 요약 노트
+- [ ] 미니 과제 제출
+- [ ] Git 업로드
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+프로젝트 시작 – 폴더 구조 정리  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-Day-15-28-28d811fbadda81168e4bcab7224c83b2)
+",[Day 28] 회고 & 소형 과제,https://velog.io/@gofla333/day-28-회고-소형-과제
+Day 29,"[ ] 폴더 초기 세팅
+[ ] src 분리
+[ ] git init 및 커밋",2025년 11월 12일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,React 프로젝트 구조 – https://react.dev/learn/project-structure,Not Started,프로젝트 시작 – 폴더 구조 정리,"# 🧠 Day 29 — 프로젝트 시작 – 폴더 구조 정리
+
+> **학습 기간:** 2025.11.12  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 29/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 폴더 초기 세팅
+- src 분리
+- git init 및 커밋
+
+---
+
+## 🎥 참고 자료
+- 🔗 [React 프로젝트 구조](https://react.dev/learn/project-structure)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 폴더 초기 세팅
+- [ ] src 분리
+- [ ] git init 및 커밋
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+라우팅 기초 (React Router v6)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 29] 프로젝트 시작 – 폴더 구조 정리,https://velog.io/@gofla333/day-29-프로젝트-시작-–-폴더-구조-정리
+Day 30,"[ ] BrowserRouter 설정
+[ ] 라우트 분리
+[ ] 404 페이지 생성",2025년 11월 13일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,React Router 튜토리얼 – https://reactrouter.com/en/main/start/tutorial,Not Started,라우팅 기초 (React Router v6),"# 🧠 Day 30 — 라우팅 기초 (React Router v6)
+
+> **학습 기간:** 2025.11.13  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 30/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- BrowserRouter 설정
+- 라우트 분리
+- 404 페이지 생성
+
+---
+
+## 🎥 참고 자료
+- 🔗 [React Router 튜토리얼](https://reactrouter.com/en/main/start/tutorial)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] BrowserRouter 설정
+- [ ] 라우트 분리
+- [ ] 404 페이지 생성
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Todo 목록 UI 구현 (컴포넌트 설계)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 30] 라우팅 기초 (React Router v6),https://velog.io/@gofla333/day-30-라우팅-기초-react-router-v6
+Day 31,"[ ] TodoItem 컴포넌트 작성
+[ ] 목록 렌더링 테스트",2025년 11월 14일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,리스트 렌더링 – https://react.dev/learn/rendering-lists,Not Started,Todo 목록 UI 구현 (컴포넌트 설계),"# 🧠 Day 31 — Todo 목록 UI 구현 (컴포넌트 설계)
+
+> **학습 기간:** 2025.11.14  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 31/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- TodoItem 컴포넌트 작성
+- 목록 렌더링 테스트
+
+---
+
+## 🎥 참고 자료
+- 🔗 [리스트 렌더링](https://react.dev/learn/rendering-lists)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] TodoItem 컴포넌트 작성
+- [ ] 목록 렌더링 테스트
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+useState / Props 활용 입력 기능 추가  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 31] Todo 목록 UI 구현 (컴포넌트 설계),https://velog.io/@gofla333/day-31-todo-목록-ui-구현-컴포넌트-설계
+Day 32,"[ ] input 상태 관리
+[ ] onSubmit 핸들러 작성",2025년 11월 15일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,React 폼 – https://react.dev/learn/forms,Not Started,useState / Props 활용 입력 기능 추가,"# 🧠 Day 32 — useState / Props 활용 입력 기능 추가
+
+> **학습 기간:** 2025.11.15  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 32/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- input 상태 관리
+- onSubmit 핸들러 작성
+
+---
+
+## 🎥 참고 자료
+- 🔗 [React 폼](https://react.dev/learn/forms)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] input 상태 관리
+- [ ] onSubmit 핸들러 작성
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Todo 삭제 / 체크 기능 추가  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 32] useState / Props 활용 입력 기능 추가,https://velog.io/@gofla333/day-32-usestate-props-활용-입력-기능-추가
+Day 33,"[ ] 삭제 버튼 핸들러
+[ ] 완료 토글 기능",2025년 11월 16일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,상태 업데이트 – https://react.dev/learn/updating-objects-in-state,Not Started,Todo 삭제 / 체크 기능 추가,"# 🧠 Day 33 — Todo 삭제 / 체크 기능 추가
+
+> **학습 기간:** 2025.11.16  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 33/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 삭제 버튼 핸들러
+- 완료 토글 기능
+
+---
+
+## 🎥 참고 자료
+- 🔗 [상태 업데이트](https://react.dev/learn/updating-objects-in-state)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 삭제 버튼 핸들러
+- [ ] 완료 토글 기능
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Context 사용해 전역 상태 관리  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 33] Todo 삭제 / 체크 기능 추가,https://velog.io/@gofla333/day-33-todo-삭제-체크-기능-추가
+Day 34,"[ ] TodoContext 생성
+[ ] Provider 적용",2025년 11월 17일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,React Context – https://react.dev/reference/react/useContext,Not Started,Context 사용해 전역 상태 관리,"# 🧠 Day 34 — Context 사용해 전역 상태 관리
+
+> **학습 기간:** 2025.11.17  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 34/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- TodoContext 생성
+- Provider 적용
+
+---
+
+## 🎥 참고 자료
+- 🔗 [React Context](https://react.dev/reference/react/useContext)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] TodoContext 생성
+- [ ] Provider 적용
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Reducer 패턴 도입 (상태 로직 분리)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 34] Context 사용해 전역 상태 관리,https://velog.io/@gofla333/day-34-context-사용해-전역-상태-관리
+Day 35,"[ ] Reducer 작성
+[ ] Action 타입 정의",2025년 11월 18일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,useReducer – https://react.dev/reference/react/useReducer,Not Started,Reducer 패턴 도입 (상태 로직 분리),"# 🧠 Day 35 — Reducer 패턴 도입 (상태 로직 분리)
+
+> **학습 기간:** 2025.11.18  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 35/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- Reducer 작성
+- Action 타입 정의
+
+---
+
+## 🎥 참고 자료
+- 🔗 [useReducer](https://react.dev/reference/react/useReducer)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] Reducer 작성
+- [ ] Action 타입 정의
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Custom Hook 추출 (useTodos)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 35] Reducer 패턴 도입 (상태 로직 분리),https://velog.io/@gofla333/day-35-reducer-패턴-도입-상태-로직-분리
+Day 36,"[ ] useTodos 만들기
+[ ] Context 로직 분리",2025년 11월 19일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,Custom Hooks – https://react.dev/learn/reusing-logic-with-custom-hooks,Not Started,Custom Hook 추출 (useTodos),"# 🧠 Day 36 — Custom Hook 추출 (useTodos)
+
+> **학습 기간:** 2025.11.19  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 36/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- useTodos 만들기
+- Context 로직 분리
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Custom Hooks](https://react.dev/learn/reusing-logic-with-custom-hooks)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] useTodos 만들기
+- [ ] Context 로직 분리
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+로컬스토리지 데이터 영속화  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 36] Custom Hook 추출 (useTodos),https://velog.io/@gofla333/day-36-custom-hook-추출-usetodos
+Day 37,[ ] 저장 / 불러오기 로직 구현,2025년 11월 20일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,localStorage MDN – https://developer.mozilla.org/ko/docs/Web/API/Window/localStorage,Not Started,로컬스토리지 데이터 영속화,"# 🧠 Day 37 — 로컬스토리지 데이터 영속화
+
+> **학습 기간:** 2025.11.20  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 37/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 저장 / 불러오기 로직 구현
+
+---
+
+## 🎥 참고 자료
+- 📘 [localStorage MDN](https://developer.mozilla.org/ko/docs/Web/API/Window/localStorage)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 저장 / 불러오기 로직 구현
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+성능 최적화 (useMemo / useCallback)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 37] 로컬스토리지 데이터 영속화,https://velog.io/@gofla333/day-37-로컬스토리지-데이터-영속화
+Day 38,"[ ] 불필요한 렌더링 감소
+[ ] 메모이제이션 적용",2025년 11월 21일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,React 성능 최적화 – https://react.dev/learn/optimizing-performance,Not Started,성능 최적화 (useMemo / useCallback),"# 🧠 Day 38 — 성능 최적화 (useMemo / useCallback)
+
+> **학습 기간:** 2025.11.21  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 38/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 불필요한 렌더링 감소
+- 메모이제이션 적용
+
+---
+
+## 🎥 참고 자료
+- 🔗 [React 성능 최적화](https://react.dev/learn/optimizing-performance)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 불필요한 렌더링 감소
+- [ ] 메모이제이션 적용
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+컴포넌트 분리 / 디렉터리 정리  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 38] 성능 최적화 (useMemo / useCallback),https://velog.io/@gofla333/day-38-성능-최적화-usememo-usecallback
+Day 39,"[ ] 컴포넌트 모듈화
+[ ] 폴더 정리",2025년 11월 22일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,리팩토링 가이드 – https://react.dev/learn/scaling-up-with-reducer-and-context,Not Started,컴포넌트 분리 / 디렉터리 정리,"# 🧠 Day 39 — 컴포넌트 분리 / 디렉터리 정리
+
+> **학습 기간:** 2025.11.22  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 39/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 컴포넌트 모듈화
+- 폴더 정리
+
+---
+
+## 🎥 참고 자료
+- 🔗 [리팩토링 가이드](https://react.dev/learn/scaling-up-with-reducer-and-context)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 컴포넌트 모듈화
+- [ ] 폴더 정리
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+UI 테스트 작성 (Jest + RTL)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 39] 컴포넌트 분리 / 디렉터리 정리,https://velog.io/@gofla333/day-39-컴포넌트-분리-디렉터리-정리
+Day 40,"[ ] Todo 렌더링 테스트
+[ ] 이벤트 시뮬레이션",2025년 11월 23일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,"RTL 소개 – https://testing-library.com/docs/react-testing-library/intro/
+Jest 시작하기 – https://jestjs.io/docs/getting-started",Not Started,UI 테스트 작성 (Jest + RTL),"# 🧠 Day 40 — UI 테스트 작성 (Jest + RTL)
+
+> **학습 기간:** 2025.11.23  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 40/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- Todo 렌더링 테스트
+- 이벤트 시뮬레이션
+
+---
+
+## 🎥 참고 자료
+- 🔗 [RTL 소개](https://testing-library.com/docs/react-testing-library/intro/)
+- 🔗 [Jest 시작하기](https://jestjs.io/docs/getting-started)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] Todo 렌더링 테스트
+- [ ] 이벤트 시뮬레이션
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+useEffect 활용 비동기 패칭  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 40] UI 테스트 작성 (Jest + RTL),https://velog.io/@gofla333/day-40-ui-테스트-작성-jest-rtl
+Day 41,"[ ] API 패칭 흐름 이해
+[ ] cleanup 함수 적용",2025년 11월 24일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,useEffect – https://react.dev/reference/react/useEffect,Not Started,useEffect 활용 비동기 패칭,"# 🧠 Day 41 — useEffect 활용 비동기 패칭
+
+> **학습 기간:** 2025.11.24  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 41/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- API 패칭 흐름 이해
+- cleanup 함수 적용
+
+---
+
+## 🎥 참고 자료
+- 🔗 [useEffect](https://react.dev/reference/react/useEffect)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] API 패칭 흐름 이해
+- [ ] cleanup 함수 적용
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+axios / fetch 통합 API 모듈화  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 41] useEffect 활용 비동기 패칭,https://velog.io/@gofla333/day-41-useeffect-활용-비동기-패칭
+Day 42,"[ ] axios 설치
+[ ] API 폴더 분리",2025년 11월 25일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,Axios 문서 – https://axios-http.com/docs/intro,Not Started,axios / fetch 통합 API 모듈화,"# 🧠 Day 42 — axios / fetch 통합 API 모듈화
+
+> **학습 기간:** 2025.11.25  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 42/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- axios 설치
+- API 폴더 분리
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Axios 문서](https://axios-http.com/docs/intro)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] axios 설치
+- [ ] API 폴더 분리
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+서버 데이터 연동 테스트 (JSON Placeholder)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 42] axios / fetch 통합 API 모듈화,https://velog.io/@gofla333/day-42-axios-fetch-통합-api-모듈화
+Day 43,"[ ] GET/POST 테스트
+[ ] 에러 핸들링",2025년 11월 26일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,JSON Placeholder – https://jsonplaceholder.typicode.com/,Not Started,서버 데이터 연동 테스트 (JSON Placeholder),"# 🧠 Day 43 — 서버 데이터 연동 테스트 (JSON Placeholder)
+
+> **학습 기간:** 2025.11.26  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 43/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- GET/POST 테스트
+- 에러 핸들링
+
+---
+
+## 🎥 참고 자료
+- 🔗 [JSON Placeholder](https://jsonplaceholder.typicode.com/)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] GET/POST 테스트
+- [ ] 에러 핸들링
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+로딩 / 에러 상태 관리  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 43] 서버 데이터 연동 테스트 (JSON Placeholder),https://velog.io/@gofla333/day-43-서버-데이터-연동-테스트-json-placeholder
+Day 44,"[ ] 로딩 스피너
+[ ] 에러 메시지 표시",2025년 11월 27일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,조건부 렌더링 – https://react.dev/learn/conditional-rendering,Not Started,로딩 / 에러 상태 관리,"# 🧠 Day 44 — 로딩 / 에러 상태 관리
+
+> **학습 기간:** 2025.11.27  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 44/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 로딩 스피너
+- 에러 메시지 표시
+
+---
+
+## 🎥 참고 자료
+- 🔗 [조건부 렌더링](https://react.dev/learn/conditional-rendering)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 로딩 스피너
+- [ ] 에러 메시지 표시
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+필터링 / 정렬 기능 추가  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 44] 로딩 / 에러 상태 관리,https://velog.io/@gofla333/day-44-로딩-에러-상태-관리
+Day 45,"[ ] 완료 상태별 필터
+[ ] 정렬 버튼",2025년 11월 28일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,리스트 상태 관리 팁 – https://react.dev/learn/rendering-lists#keeping-list-items-in-order,Not Started,필터링 / 정렬 기능 추가,"# 🧠 Day 45 — 필터링 / 정렬 기능 추가
+
+> **학습 기간:** 2025.11.28  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 45/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 완료 상태별 필터
+- 정렬 버튼
+
+---
+
+## 🎥 참고 자료
+- 🔗 [리스트 상태 관리 팁](https://react.dev/learn/rendering-lists#keeping-list-items-in-order)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 완료 상태별 필터
+- [ ] 정렬 버튼
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Pagination 기초  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 45] 필터링 / 정렬 기능 추가,https://velog.io/@gofla333/day-45-필터링-정렬-기능-추가
+Day 46,[ ] 페이지네이션 상태 관리,2025년 11월 29일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,리스트 유지 팁 – https://react.dev/learn/rendering-lists#keeping-list-items-in-order,Not Started,Pagination 기초,"# 🧠 Day 46 — Pagination 기초
+
+> **학습 기간:** 2025.11.29  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 46/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 페이지네이션 상태 관리
+
+---
+
+## 🎥 참고 자료
+- 🔗 [리스트 유지 팁](https://react.dev/learn/rendering-lists#keeping-list-items-in-order)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 페이지네이션 상태 관리
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+전역 에러 바운더리 적용  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 46] Pagination 기초,https://velog.io/@gofla333/day-46-pagination-기초
+Day 47,[ ] 에러 컴포넌트 작성,2025년 11월 30일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,Error Boundaries – https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary,Not Started,전역 에러 바운더리 적용,"# 🧠 Day 47 — 전역 에러 바운더리 적용
+
+> **학습 기간:** 2025.11.30  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 47/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 에러 컴포넌트 작성
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Error Boundaries](https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 에러 컴포넌트 작성
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+다크모드 / 테마 토글  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 47] 전역 에러 바운더리 적용,https://velog.io/@gofla333/day-47-전역-에러-바운더리-적용
+Day 48,"[ ] Context로 테마 관리
+[ ] localStorage 저장",2025년 12월 1일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,웹 다크모드 가이드 – https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/,Not Started,다크모드 / 테마 토글,"# 🧠 Day 48 — 다크모드 / 테마 토글
+
+> **학습 기간:** 2025.12.01  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 48/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- Context로 테마 관리
+- localStorage 저장
+
+---
+
+## 🎥 참고 자료
+- 🔗 [웹 다크모드 가이드](https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] Context로 테마 관리
+- [ ] localStorage 저장
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+전역 모달 관리 (useModal)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 48] 다크모드 / 테마 토글,https://velog.io/@gofla333/day-48-다크모드-테마-토글
+Day 49,"[ ] Custom Hook 작성
+[ ] Portal 렌더링",2025년 12월 2일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,createPortal – https://react.dev/reference/react-dom/createPortal,Not Started,전역 모달 관리 (useModal),"# 🧠 Day 49 — 전역 모달 관리 (useModal)
+
+> **학습 기간:** 2025.12.02  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 49/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- Custom Hook 작성
+- Portal 렌더링
+
+---
+
+## 🎥 참고 자료
+- 🔗 [createPortal](https://react.dev/reference/react-dom/createPortal)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] Custom Hook 작성
+- [ ] Portal 렌더링
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Todo 앱 테스트 통합 (Jest)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 49] 전역 모달 관리 (useModal),https://velog.io/@gofla333/day-49-전역-모달-관리-usemodal
+Day 50,"[ ] 통합 테스트 작성
+[ ] mock API 활용",2025년 12월 3일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,Jest Docs – https://jestjs.io/docs/getting-started,Not Started,Todo 앱 테스트 통합 (Jest),"# 🧠 Day 50 — Todo 앱 테스트 통합 (Jest)
+
+> **학습 기간:** 2025.12.03  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 50/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 통합 테스트 작성
+- mock API 활용
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Jest Docs](https://jestjs.io/docs/getting-started)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 통합 테스트 작성
+- [ ] mock API 활용
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+CI/CD 기초 – GitHub Actions  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 50] Todo 앱 테스트 통합 (Jest),https://velog.io/@gofla333/day-50-todo-앱-테스트-통합-jest
+Day 51,"[ ] Workflow 설정
+[ ] 테스트 자동화 확인",2025년 12월 4일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,GitHub Actions – https://docs.github.com/en/actions,Not Started,CI/CD 기초 – GitHub Actions,"# 🧠 Day 51 — CI/CD 기초 – GitHub Actions
+
+> **학습 기간:** 2025.12.04  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 51/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- Workflow 설정
+- 테스트 자동화 확인
+
+---
+
+## 🎥 참고 자료
+- 🔗 [GitHub Actions](https://docs.github.com/en/actions)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] Workflow 설정
+- [ ] 테스트 자동화 확인
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+환경 변수 관리 (.env)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 51] CI/CD 기초 – GitHub Actions,https://velog.io/@gofla333/day-51-ci-cd-기초-–-github-actions
+Day 52,"[ ] .env 파일 설정
+[ ] build 환경 테스트",2025년 12월 5일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,Vite 환경 변수 – https://vitejs.dev/guide/env-and-mode.html,Not Started,환경 변수 관리 (.env),"# 🧠 Day 52 — 환경 변수 관리 (.env)
+
+> **학습 기간:** 2025.12.05  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 52/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- .env 파일 설정
+- build 환경 테스트
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Vite 환경 변수](https://vitejs.dev/guide/env-and-mode.html)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] .env 파일 설정
+- [ ] build 환경 테스트
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+코드 리뷰 준비 / 리팩토링  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 52] 환경 변수 관리 (.env),https://velog.io/@gofla333/day-52-환경-변수-관리-env
+Day 53,"[ ] 코드 정리
+[ ] eslint / prettier 확인",2025년 12월 6일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,리팩토링 체크 – https://react.dev/learn/scaling-up-with-reducer-and-context,Not Started,코드 리뷰 준비 / 리팩토링,"# 🧠 Day 53 — 코드 리뷰 준비 / 리팩토링
+
+> **학습 기간:** 2025.12.06  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 53/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 코드 정리
+- eslint / prettier 확인
+
+---
+
+## 🎥 참고 자료
+- 🔗 [리팩토링 체크](https://react.dev/learn/scaling-up-with-reducer-and-context)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 코드 정리
+- [ ] eslint / prettier 확인
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+테스트 리포트 정리 / README 작성  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 53] 코드 리뷰 준비 / 리팩토링,https://velog.io/@gofla333/day-53-코드-리뷰-준비-리팩토링
+Day 54,"[ ] 프로젝트 소개 추가
+[ ] 명령어 정리",2025년 12월 7일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,README 가이드 – https://www.makeareadme.com/,Not Started,테스트 리포트 정리 / README 작성,"# 🧠 Day 54 — 테스트 리포트 정리 / README 작성
+
+> **학습 기간:** 2025.12.07  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 54/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 프로젝트 소개 추가
+- 명령어 정리
+
+---
+
+## 🎥 참고 자료
+- 🔗 [README 가이드](https://www.makeareadme.com/)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 프로젝트 소개 추가
+- [ ] 명령어 정리
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+배포 (Static Hosting / Netlify)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 54] 테스트 리포트 정리 / README 작성,https://velog.io/@gofla333/day-54-테스트-리포트-정리-readme-작성
+Day 55,"[ ] Netlify 연결
+[ ] 환경변수 적용",2025년 12월 8일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,Netlify Docs – https://docs.netlify.com/,Not Started,배포 (Static Hosting / Netlify),"# 🧠 Day 55 — 배포 (Static Hosting / Netlify)
+
+> **학습 기간:** 2025.12.08  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 55/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- Netlify 연결
+- 환경변수 적용
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Netlify Docs](https://docs.netlify.com/)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] Netlify 연결
+- [ ] 환경변수 적용
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+회고 / 완성 Todo 시연  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 55] 배포 (Static Hosting / Netlify),https://velog.io/@gofla333/day-55-배포-static-hosting-netlify
+Day 56,"[ ] 최종 테스트
+[ ] 회고 포스팅 작성",2025년 12월 9일,,https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0,프로젝트 회고 – https://www.atlassian.com/retro,Not Started,회고 / 완성 Todo 시연,"# 🧠 Day 56 — 회고 / 완성 Todo 시연
+
+> **학습 기간:** 2025.12.09  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 56/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 최종 테스트
+- 회고 포스팅 작성
+
+---
+
+## 🎥 참고 자료
+- 🔗 [프로젝트 회고](https://www.atlassian.com/retro)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 최종 테스트
+- [ ] 회고 포스팅 작성
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+API 설계 및 axios 기반 비동기 통신  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/React-TypeScript-Todo-Day-29-56-28d811fbadda815aa236cb5f70122ca0)
+",[Day 56] 회고 / 완성 Todo 시연,https://velog.io/@gofla333/day-56-회고-완성-todo-시연
+Day 57,"[ ] Axios 인스턴스 생성
+[ ] 공통 헤더 설정
+[ ] API 유틸 생성",2025년 12월 10일,,https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,"Axios – https://axios-http.com/docs/intro
+REST API 개념 – https://developer.mozilla.org/ko/docs/Glossary/REST",Not Started,API 설계 및 axios 기반 비동기 통신,"# 🧠 Day 57 — API 설계 및 axios 기반 비동기 통신
+
+> **학습 기간:** 2025.12.10  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 57/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- Axios 인스턴스 생성
+- 공통 헤더 설정
+- API 유틸 생성
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Axios](https://axios-http.com/docs/intro)
+- 📘 [REST API 개념](https://developer.mozilla.org/ko/docs/Glossary/REST)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] Axios 인스턴스 생성
+- [ ] 공통 헤더 설정
+- [ ] API 유틸 생성
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+useEffect로 데이터 패칭 & 상태관리  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9)
+",[Day 57] API 설계 및 axios 기반 비동기 통신,https://velog.io/@gofla333/day-57-api-설계-및-axios-기반-비동기-통신
+Day 58,"[ ] 비동기 호출 로딩 처리
+[ ] cleanup 실습",2025년 12월 11일,,https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,useEffect – https://react.dev/reference/react/useEffect,Not Started,useEffect로 데이터 패칭 & 상태관리,"# 🧠 Day 58 — useEffect로 데이터 패칭 & 상태관리
+
+> **학습 기간:** 2025.12.11  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 58/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 비동기 호출 로딩 처리
+- cleanup 실습
+
+---
+
+## 🎥 참고 자료
+- 🔗 [useEffect](https://react.dev/reference/react/useEffect)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 비동기 호출 로딩 처리
+- [ ] cleanup 실습
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+에러 처리 & 로딩 상태 UI 개선  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9)
+",[Day 58] useEffect로 데이터 패칭 & 상태관리,https://velog.io/@gofla333/day-58-useeffect로-데이터-패칭-상태관리
+Day 59,"[ ] 에러 메시지 처리
+[ ] 로딩 스피너 구현",2025년 12월 12일,,https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,조건부 렌더링 – https://react.dev/learn/conditional-rendering,Not Started,에러 처리 & 로딩 상태 UI 개선,"# 🧠 Day 59 — 에러 처리 & 로딩 상태 UI 개선
+
+> **학습 기간:** 2025.12.12  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 59/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 에러 메시지 처리
+- 로딩 스피너 구현
+
+---
+
+## 🎥 참고 자료
+- 🔗 [조건부 렌더링](https://react.dev/learn/conditional-rendering)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 에러 메시지 처리
+- [ ] 로딩 스피너 구현
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+React Context를 통한 전역 상태 공유  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9)
+",[Day 59] 에러 처리 & 로딩 상태 UI 개선,https://velog.io/@gofla333/day-59-에러-처리-로딩-상태-ui-개선
+Day 60,"[ ] Context 생성/Provider 구성
+[ ] useContext 사용",2025년 12월 13일,,https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,React Context – https://react.dev/reference/react/useContext,Not Started,React Context를 통한 전역 상태 공유,"# 🧠 Day 60 — React Context를 통한 전역 상태 공유
+
+> **학습 기간:** 2025.12.13  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 60/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- Context 생성/Provider 구성
+- useContext 사용
+
+---
+
+## 🎥 참고 자료
+- 🔗 [React Context](https://react.dev/reference/react/useContext)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] Context 생성/Provider 구성
+- [ ] useContext 사용
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Reducer와 Context 결합 (useReducer)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9)
+",[Day 60] React Context를 통한 전역 상태 공유,https://velog.io/@gofla333/day-60-react-context를-통한-전역-상태-공유
+Day 61,"[ ] Action 타입 정의
+[ ] 상태 전이 로직",2025년 12월 14일,,https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,useReducer – https://react.dev/reference/react/useReducer,Not Started,Reducer와 Context 결합 (useReducer),"# 🧠 Day 61 — Reducer와 Context 결합 (useReducer)
+
+> **학습 기간:** 2025.12.14  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 61/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- Action 타입 정의
+- 상태 전이 로직
+
+---
+
+## 🎥 참고 자료
+- 🔗 [useReducer](https://react.dev/reference/react/useReducer)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] Action 타입 정의
+- [ ] 상태 전이 로직
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+React Query 기초 (TanStack Query)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9)
+",[Day 61] Reducer와 Context 결합 (useReducer),https://velog.io/@gofla333/day-61-reducer와-context-결합-usereducer
+Day 62,"[ ] useQuery 적용
+[ ] 캐싱 확인
+[ ] 리패칭 이해",2025년 12월 15일,,https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,React Query Overview – https://tanstack.com/query/latest/docs/react/overview,Not Started,React Query 기초 (TanStack Query),"# 🧠 Day 62 — React Query 기초 (TanStack Query)
+
+> **학습 기간:** 2025.12.15  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 62/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- useQuery 적용
+- 캐싱 확인
+- 리패칭 이해
+
+---
+
+## 🎥 참고 자료
+- 🔗 [React Query Overview](https://tanstack.com/query/latest/docs/react/overview)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] useQuery 적용
+- [ ] 캐싱 확인
+- [ ] 리패칭 이해
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+React Query: Mutation & Optimistic Update  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9)
+",[Day 62] React Query 기초 (TanStack Query),https://velog.io/@gofla333/day-62-react-query-기초-tanstack-query
+Day 63,"[ ] useMutation
+[ ] 낙관적 업데이트",2025년 12월 16일,,https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,Mutations – https://tanstack.com/query/latest/docs/react/guides/mutations,Not Started,React Query: Mutation & Optimistic Update,"# 🧠 Day 63 — React Query: Mutation & Optimistic Update
+
+> **학습 기간:** 2025.12.16  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 63/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- useMutation
+- 낙관적 업데이트
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Mutations](https://tanstack.com/query/latest/docs/react/guides/mutations)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] useMutation
+- [ ] 낙관적 업데이트
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Query Key 관리 및 invalidate  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9)
+",[Day 63] React Query: Mutation & Optimistic Update,https://velog.io/@gofla333/day-63-react-query:-mutation-optimistic-update
+Day 64,"[ ] Key 구조 설계
+[ ] invalidate 사용",2025년 12월 17일,,https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,Query Keys – https://tanstack.com/query/latest/docs/react/guides/query-keys,Not Started,Query Key 관리 및 invalidate,"# 🧠 Day 64 — Query Key 관리 및 invalidate
+
+> **학습 기간:** 2025.12.17  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 64/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- Key 구조 설계
+- invalidate 사용
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Query Keys](https://tanstack.com/query/latest/docs/react/guides/query-keys)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] Key 구조 설계
+- [ ] invalidate 사용
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Custom Hook으로 비즈니스 로직 추상화  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9)
+",[Day 64] Query Key 관리 및 invalidate,https://velog.io/@gofla333/day-64-query-key-관리-및-invalidate
+Day 65,"[ ] useTodos/useApi 리팩토링
+[ ] 반복 로직 제거",2025년 12월 18일,,https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,Custom Hooks – https://react.dev/learn/reusing-logic-with-custom-hooks,Not Started,Custom Hook으로 비즈니스 로직 추상화,"# 🧠 Day 65 — Custom Hook으로 비즈니스 로직 추상화
+
+> **학습 기간:** 2025.12.18  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 65/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- useTodos/useApi 리팩토링
+- 반복 로직 제거
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Custom Hooks](https://react.dev/learn/reusing-logic-with-custom-hooks)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] useTodos/useApi 리팩토링
+- [ ] 반복 로직 제거
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+에러 경계 (ErrorBoundary) 적용  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9)
+",[Day 65] Custom Hook으로 비즈니스 로직 추상화,https://velog.io/@gofla333/day-65-custom-hook으로-비즈니스-로직-추상화
+Day 66,"[ ] 에러바운더리 작성
+[ ] fallback UI 구성",2025년 12월 19일,,https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,Error Boundaries – https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary,Not Started,에러 경계 (ErrorBoundary) 적용,"# 🧠 Day 66 — 에러 경계 (ErrorBoundary) 적용
+
+> **학습 기간:** 2025.12.19  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 66/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 에러바운더리 작성
+- fallback UI 구성
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Error Boundaries](https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 에러바운더리 작성
+- [ ] fallback UI 구성
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+성능 최적화: useMemo / useCallback 복습  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9)
+",[Day 66] 에러 경계 (ErrorBoundary) 적용,https://velog.io/@gofla333/day-66-에러-경계-errorboundary-적용
+Day 67,"[ ] 렌더링 최소화
+[ ] 함수 메모이제이션",2025년 12월 20일,,https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,성능 최적화 – https://react.dev/learn/optimizing-performance,Not Started,성능 최적화: useMemo / useCallback 복습,"# 🧠 Day 67 — 성능 최적화: useMemo / useCallback 복습
+
+> **학습 기간:** 2025.12.20  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 67/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 렌더링 최소화
+- 함수 메모이제이션
+
+---
+
+## 🎥 참고 자료
+- 🔗 [성능 최적화](https://react.dev/learn/optimizing-performance)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 렌더링 최소화
+- [ ] 함수 메모이제이션
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Suspense for Data Fetching (React 18)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9)
+",[Day 67] 성능 최적화: useMemo / useCallback 복습,https://velog.io/@gofla333/day-67-성능-최적화:-usememo-usecallback-복습
+Day 68,"[ ] fallback UI
+[ ] React.lazy 실습",2025년 12월 21일,,https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,Suspense – https://react.dev/reference/react/Suspense,Not Started,Suspense for Data Fetching (React 18),"# 🧠 Day 68 — Suspense for Data Fetching (React 18)
+
+> **학습 기간:** 2025.12.21  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 68/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- fallback UI
+- React.lazy 실습
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Suspense](https://react.dev/reference/react/Suspense)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] fallback UI
+- [ ] React.lazy 실습
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+프로젝트 통합 테스트 (API + Query)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9)
+",[Day 68] Suspense for Data Fetching (React 18),https://velog.io/@gofla333/day-68-suspense-for-data-fetching-react-18
+Day 69,"[ ] mock API 설정
+[ ] 쿼리 로직 테스트",2025년 12월 22일,,https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,Jest + RTL – https://testing-library.com/docs/react-testing-library/intro/,Not Started,프로젝트 통합 테스트 (API + Query),"# 🧠 Day 69 — 프로젝트 통합 테스트 (API + Query)
+
+> **학습 기간:** 2025.12.22  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 69/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- mock API 설정
+- 쿼리 로직 테스트
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Jest + RTL](https://testing-library.com/docs/react-testing-library/intro/)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] mock API 설정
+- [ ] 쿼리 로직 테스트
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+회고 / React Query 리팩토링 마무리  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9)
+",[Day 69] 프로젝트 통합 테스트 (API + Query),https://velog.io/@gofla333/day-69-프로젝트-통합-테스트-api-query
+Day 70,"[ ] 핵심 기능 정리
+[ ] 회고 포스트 작성",2025년 12월 23일,,https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9,Query Examples – https://tanstack.com/query/latest/docs/react/examples,Not Started,회고 / React Query 리팩토링 마무리,"# 🧠 Day 70 — 회고 / React Query 리팩토링 마무리
+
+> **학습 기간:** 2025.12.23  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 70/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 핵심 기능 정리
+- 회고 포스트 작성
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Query Examples](https://tanstack.com/query/latest/docs/react/examples)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 핵심 기능 정리
+- [ ] 회고 포스트 작성
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Next.js 소개 및 프로젝트 셋업  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/API-Context-React-Query-Custom-Hooks-Day-57-70-28d811fbadda81dc8af5feadd6383ff9)
+",[Day 70] 회고 / React Query 리팩토링 마무리,https://velog.io/@gofla333/day-70-회고-react-query-리팩토링-마무리
+Day 71,"[ ] create-next-app
+[ ] TypeScript 설정
+[ ] 개발 서버 구동",2025년 12월 24일,,https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,"Next.js 시작하기 – https://nextjs.org/learn/basics/create-nextjs-app
+App Router 개요 – https://nextjs.org/docs/app",Not Started,Next.js 소개 및 프로젝트 셋업,"# 🧠 Day 71 — Next.js 소개 및 프로젝트 셋업
+
+> **학습 기간:** 2025.12.24  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 71/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- create-next-app
+- TypeScript 설정
+- 개발 서버 구동
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Next.js 시작하기](https://nextjs.org/learn/basics/create-nextjs-app)
+- 🔗 [App Router 개요](https://nextjs.org/docs/app)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] create-next-app
+- [ ] TypeScript 설정
+- [ ] 개발 서버 구동
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+파일 기반 라우팅(App Router)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f)
+",[Day 71] Next.js 소개 및 프로젝트 셋업,https://velog.io/@gofla333/day-71-next-js-소개-및-프로젝트-셋업
+Day 72,"[ ] 페이지/레이아웃 생성
+[ ] 중첩 라우팅",2025년 12월 25일,,https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,"Routing 기본 – https://nextjs.org/docs/app/building-your-application/routing
+Route Groups – https://nextjs.org/docs/app/building-your-application/routing/route-groups",Not Started,파일 기반 라우팅(App Router),"# 🧠 Day 72 — 파일 기반 라우팅(App Router)
+
+> **학습 기간:** 2025.12.25  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 72/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 페이지/레이아웃 생성
+- 중첩 라우팅
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Routing 기본](https://nextjs.org/docs/app/building-your-application/routing)
+- 🔗 [Route Groups](https://nextjs.org/docs/app/building-your-application/routing/route-groups)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 페이지/레이아웃 생성
+- [ ] 중첩 라우팅
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Server Component vs Client Component  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f)
+",[Day 72] 파일 기반 라우팅(App Router),https://velog.io/@gofla333/day-72-파일-기반-라우팅-app-router
+Day 73,"[ ] 서버/클라 컴포넌트 구분
+[ ] use client 지시어",2025년 12월 26일,,https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,"Server Components – https://nextjs.org/docs/app/building-your-application/rendering/server-components
+Client Components – https://nextjs.org/docs/app/building-your-application/rendering/client-components",Not Started,Server Component vs Client Component,"# 🧠 Day 73 — Server Component vs Client Component
+
+> **학습 기간:** 2025.12.26  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 73/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 서버/클라 컴포넌트 구분
+- use client 지시어
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Server Components](https://nextjs.org/docs/app/building-your-application/rendering/server-components)
+- 🔗 [Client Components](https://nextjs.org/docs/app/building-your-application/rendering/client-components)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 서버/클라 컴포넌트 구분
+- [ ] use client 지시어
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+데이터 페칭 (fetch, caching, revalidate)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f)
+",[Day 73] Server Component vs Client Component,https://velog.io/@gofla333/day-73-server-component-vs-client-component
+Day 74,"[ ] 캐싱 전략
+[ ] revalidate 옵션",2025년 12월 27일,,https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,"Data Fetching – https://nextjs.org/docs/app/building-your-application/data-fetching/fetching
+Caching/Revalidation – https://nextjs.org/docs/app/building-your-application/caching",Not Started,"데이터 페칭 (fetch, caching, revalidate)","# 🧠 Day 74 — 데이터 페칭 (fetch, caching, revalidate)
+
+> **학습 기간:** 2025.12.27  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 74/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 캐싱 전략
+- revalidate 옵션
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Data Fetching](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching)
+- 🔗 [Caching/Revalidation](https://nextjs.org/docs/app/building-your-application/caching)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 캐싱 전략
+- [ ] revalidate 옵션
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+동적 라우팅 & generateStaticParams  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f)
+","[Day 74] 데이터 페칭 (fetch, caching, revalidate)",https://velog.io/@gofla333/day-74-데이터-페칭-fetch-caching-revalidate
+Day 75,"[ ] [id] 라우트
+[ ] 정적 파라미터",2025년 12월 28일,,https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,"Dynamic Routes – https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes
+generateStaticParams – https://nextjs.org/docs/app/api-reference/functions/generate-static-params",Not Started,동적 라우팅 & generateStaticParams,"# 🧠 Day 75 — 동적 라우팅 & generateStaticParams
+
+> **학습 기간:** 2025.12.28  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 75/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- [id] 라우트
+- 정적 파라미터
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Dynamic Routes](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes)
+- 🔗 [generateStaticParams](https://nextjs.org/docs/app/api-reference/functions/generate-static-params)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] [id] 라우트
+- [ ] 정적 파라미터
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+메타데이터 설정 & SEO 기초  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f)
+",[Day 75] 동적 라우팅 & generateStaticParams,https://velog.io/@gofla333/day-75-동적-라우팅-generatestaticparams
+Day 76,"[ ] 메타 제목/설명
+[ ] OG 태그",2025년 12월 29일,,https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,"Metadata – https://nextjs.org/docs/app/api-reference/functions/generate-metadata
+SEO 가이드 – https://nextjs.org/learn/seo",Not Started,메타데이터 설정 & SEO 기초,"# 🧠 Day 76 — 메타데이터 설정 & SEO 기초
+
+> **학습 기간:** 2025.12.29  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 76/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 메타 제목/설명
+- OG 태그
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Metadata](https://nextjs.org/docs/app/api-reference/functions/generate-metadata)
+- 🔗 [SEO 가이드](https://nextjs.org/learn/seo)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 메타 제목/설명
+- [ ] OG 태그
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+이미지/폰트 최적화 (next/image, next/font)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f)
+",[Day 76] 메타데이터 설정 & SEO 기초,https://velog.io/@gofla333/day-76-메타데이터-설정-seo-기초
+Day 77,"[ ] Image 교체
+[ ] 폰트 로딩 최적화",2025년 12월 30일,,https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,"next/image – https://nextjs.org/docs/app/building-your-application/optimizing/images
+next/font – https://nextjs.org/docs/app/building-your-application/optimizing/fonts",Not Started,"이미지/폰트 최적화 (next/image, next/font)","# 🧠 Day 77 — 이미지/폰트 최적화 (next/image, next/font)
+
+> **학습 기간:** 2025.12.30  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 77/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- Image 교체
+- 폰트 로딩 최적화
+
+---
+
+## 🎥 참고 자료
+- 🔗 [next/image](https://nextjs.org/docs/app/building-your-application/optimizing/images)
+- 🔗 [next/font](https://nextjs.org/docs/app/building-your-application/optimizing/fonts)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] Image 교체
+- [ ] 폰트 로딩 최적화
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+상태관리 연동 (Context / Zustand 등)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f)
+","[Day 77] 이미지/폰트 최적화 (next/image, next/font)",https://velog.io/@gofla333/day-77-이미지-폰트-최적화-next-image-next-font
+Day 78,"[ ] 전역 상태 스토어
+[ ] 서버/클라 경계 고려",2025년 12월 31일,,https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,"Context – https://react.dev/reference/react/useContext
+Zustand – https://docs.pmnd.rs/zustand/getting-started/introduction",Not Started,상태관리 연동 (Context / Zustand 등),"# 🧠 Day 78 — 상태관리 연동 (Context / Zustand 등)
+
+> **학습 기간:** 2025.12.31  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 78/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 전역 상태 스토어
+- 서버/클라 경계 고려
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Context](https://react.dev/reference/react/useContext)
+- 🔗 [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 전역 상태 스토어
+- [ ] 서버/클라 경계 고려
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Form & 액션 (Server Actions 기초)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f)
+",[Day 78] 상태관리 연동 (Context / Zustand 등),https://velog.io/@gofla333/day-78-상태관리-연동-context-zustand-등
+Day 79,"[ ] 서버 액션 예제
+[ ] 낙관적 UI",2026년 1월 1일,,https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,"Server Actions – https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations
+Form 처리 – https://nextjs.org/docs/app/building-your-application/forms-and-mutations",Not Started,Form & 액션 (Server Actions 기초),"# 🧠 Day 79 — Form & 액션 (Server Actions 기초)
+
+> **학습 기간:** 2026.01.01  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 79/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 서버 액션 예제
+- 낙관적 UI
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Server Actions](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations)
+- 🔗 [Form 처리](https://nextjs.org/docs/app/building-your-application/forms-and-mutations)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 서버 액션 예제
+- [ ] 낙관적 UI
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Middleware / Edge Runtime  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f)
+",[Day 79] Form & 액션 (Server Actions 기초),https://velog.io/@gofla333/day-79-form-액션-server-actions-기초
+Day 80,"[ ] 경로 보호
+[ ] 요청 전 처리",2026년 1월 2일,,https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,"Middleware – https://nextjs.org/docs/app/building-your-application/routing/middleware
+Edge Runtime – https://nextjs.org/docs/app/building-your-application/runtimes#edge-runtime",Not Started,Middleware / Edge Runtime,"# 🧠 Day 80 — Middleware / Edge Runtime
+
+> **학습 기간:** 2026.01.02  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 80/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- 경로 보호
+- 요청 전 처리
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Middleware](https://nextjs.org/docs/app/building-your-application/routing/middleware)
+- 🔗 [Edge Runtime](https://nextjs.org/docs/app/building-your-application/runtimes#edge-runtime)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] 경로 보호
+- [ ] 요청 전 처리
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+Next.js + React Query 통합  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f)
+",[Day 80] Middleware / Edge Runtime,https://velog.io/@gofla333/day-80-middleware-edge-runtime
+Day 81,"[ ] Hydration 전략
+[ ] Prefetch 실습",2026년 1월 3일,,https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,Next.js x React Query – https://tanstack.com/query/latest/docs/react/framework/nextjs,Not Started,Next.js + React Query 통합,"# 🧠 Day 81 — Next.js + React Query 통합
+
+> **학습 기간:** 2026.01.03  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 81/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- Hydration 전략
+- Prefetch 실습
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Next.js x React Query](https://tanstack.com/query/latest/docs/react/framework/nextjs)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] Hydration 전략
+- [ ] Prefetch 실습
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+환경 변수 / 설정 (next.config, .env)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f)
+",[Day 81] Next.js + React Query 통합,https://velog.io/@gofla333/day-81-next-js-react-query-통합
+Day 82,"[ ] .env 설정
+[ ] 빌드/런타임 변수",2026년 1월 4일,,https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,"환경 변수 – https://nextjs.org/docs/app/building-your-application/configuring/environment-variables
+next.config.js – https://nextjs.org/docs/app/building-your-application/configuring",Not Started,"환경 변수 / 설정 (next.config, .env)","# 🧠 Day 82 — 환경 변수 / 설정 (next.config, .env)
+
+> **학습 기간:** 2026.01.04  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 82/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- .env 설정
+- 빌드/런타임 변수
+
+---
+
+## 🎥 참고 자료
+- 🔗 [환경 변수](https://nextjs.org/docs/app/building-your-application/configuring/environment-variables)
+- 🔗 [next.config.js](https://nextjs.org/docs/app/building-your-application/configuring)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] .env 설정
+- [ ] 빌드/런타임 변수
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+배포 준비 (Vercel) & 성능 점검  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f)
+","[Day 82] 환경 변수 / 설정 (next.config, .env)",https://velog.io/@gofla333/day-82-환경-변수-설정-next-config-env
+Day 83,"[ ] Vercel 연결
+[ ] 성능 리포트",2026년 1월 5일,,https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,"Vercel 배포 – https://vercel.com/docs/deployments/overview
+Lighthouse – https://developer.chrome.com/docs/lighthouse/overview/",Not Started,배포 준비 (Vercel) & 성능 점검,"# 🧠 Day 83 — 배포 준비 (Vercel) & 성능 점검
+
+> **학습 기간:** 2026.01.05  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 83/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- Vercel 연결
+- 성능 리포트
+
+---
+
+## 🎥 참고 자료
+- 🔗 [Vercel 배포](https://vercel.com/docs/deployments/overview)
+- 🔗 [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] Vercel 연결
+- [ ] 성능 리포트
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+최종 회고 / 기능 시연 & 문서화  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f)
+",[Day 83] 배포 준비 (Vercel) & 성능 점검,https://velog.io/@gofla333/day-83-배포-준비-vercel-성능-점검
+Day 84,"[ ] CHANGELOG/README 업데이트
+[ ] 최종 데모",2026년 1월 6일,,https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f,문서화 가이드 – https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/,Not Started,최종 회고 / 기능 시연 & 문서화,"# 🧠 Day 84 — 최종 회고 / 기능 시연 & 문서화
+
+> **학습 기간:** 2026.01.06  
+> **총 루틴:** React + TypeScript 실전 루틴 (Day 84/84)  
+> **소요 시간:** ⏰ 30분 ~ 1시간  
+
+---
+
+## 🎯 오늘의 목표
+- CHANGELOG/README 업데이트
+- 최종 데모
+
+---
+
+## 🎥 참고 자료
+- 🔗 [문서화 가이드](https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/)
+
+---
+
+## 💻 실습 코드
+```ts
+// 여기에 오늘 배운 개념을 적용해 간단한 예제를 작성해보세요.
+// 예: 함수, 타입 주석, 상태 업데이트 등
+```
+
+🧩 **추가 실습**
+- 오늘 목표 중 헷갈린 항목 한 가지를 선택해 추가 예제 작성하기
+- 에러가 난다면 원인을 적고 해결 과정을 기록하기
+
+---
+
+## ✅ 체크리스트
+- [ ] CHANGELOG/README 업데이트
+- [ ] 최종 데모
+
+---
+
+## 📝 오늘의 회고
+✅ **배운 점:**  
+❓ **헷갈린 부분:**  
+💡 **개선 포인트:**  
+
+---
+
+📌 **내일 목표**  
+— (마지막 날)  
+
+---
+🔗 [오늘의 노션 페이지](https://www.notion.so/Next-js-Day-71-84-28d811fbadda81a39ba6f1033757242f)
+",[Day 84] 최종 회고 / 기능 시연 & 문서화,https://velog.io/@gofla333/day-84-최종-회고-기능-시연-문서화
